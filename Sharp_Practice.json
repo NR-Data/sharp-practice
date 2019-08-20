@@ -1,0 +1,2003 @@
+{
+  "gameSystem": {
+    "name": "Sharp Practice",
+    "id": "4410-0bc8-f0e3-e5a0",
+    "battleScribeVersion": 2.03,
+    "revision": 1,
+    "type": "gameSystem",
+    "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
+    "categoryEntries": [
+      {"name": "Regulars", "id": "83e1-2188-7ecb-6a98", "hidden": false},
+      {"name": "Skirmishers", "id": "bcc2-d8d3-8872-c543", "hidden": false},
+      {"name": "Light Infantry", "id": "802a-f3d2-7bfd-d7d8", "hidden": false},
+      {"name": "Irregular Skirmishers", "id": "0d0f-358f-351a-5088", "hidden": false},
+      {"name": "Conscripts and Volunteers", "id": "3a23-a504-6b18-97ec", "hidden": false},
+      {"name": "Militia", "id": "42a3-0db0-975a-bc57", "hidden": false},
+      {"name": "Tribe", "id": "f008-6343-9033-6590", "hidden": false},
+      {"name": "Artillery", "id": "dafe-ff28-362c-9bd5", "hidden": false},
+      {"name": "Impact Cavalry", "id": "5c1c-87dd-2fb9-6089", "hidden": false},
+      {"name": "Elite", "id": "84b0-654f-cfb6-7252", "hidden": false},
+      {"name": "Scouting Cavalry", "id": "a788-97af-54c1-f87a", "hidden": false},
+      {"name": "Dragoons", "id": "b95b-3f7a-d5fb-bbea", "hidden": false},
+      {"name": "Wallahs", "id": "166c-11d8-8426-6d8d", "hidden": false},
+      {"name": "Clans", "id": "0fb3-c485-afa1-cc89", "hidden": false},
+      {"name": "Irregular Cavalry", "id": "631e-642d-03ec-38b1", "hidden": false},
+      {"name": "Leaders", "id": "612b-bffa-1303-f141", "hidden": false},
+      {"name": "Support", "id": "a645-8a61-0128-7539", "hidden": false}
+    ],
+    "costTypes": [{"name": "Points", "id": "6e4e-2180-a5bc-e3b3", "defaultCostLimit": -1}],
+    "forceEntries": [
+      {
+        "name": "Force",
+        "id": "27bb-ed4d-0a83-dee9",
+        "hidden": false,
+        "categoryLinks": [
+          {"name": "Artillery", "id": "bce0-c564-9e62-39f0", "hidden": false, "primary": false, "targetId": "dafe-ff28-362c-9bd5"},
+          {"name": "Clans", "id": "80c1-5000-bc52-ef4e", "hidden": false, "primary": false, "targetId": "0fb3-c485-afa1-cc89"},
+          {"name": "Conscripts and Volunteers", "id": "35c1-4c16-9c16-fe9d", "hidden": false, "primary": false, "targetId": "3a23-a504-6b18-97ec"},
+          {"name": "Dragoons", "id": "ae64-a63a-3432-1546", "hidden": false, "primary": false, "targetId": "b95b-3f7a-d5fb-bbea"},
+          {"name": "Elite", "id": "1736-ae3e-a5e7-cb96", "hidden": false, "primary": false, "targetId": "84b0-654f-cfb6-7252"},
+          {"name": "Impact Cavalry", "id": "e46e-658a-4478-bb9f", "hidden": false, "primary": false, "targetId": "5c1c-87dd-2fb9-6089"},
+          {"name": "Irregular Cavalry", "id": "f0d1-fe5b-f7b3-302d", "hidden": false, "primary": false, "targetId": "631e-642d-03ec-38b1"},
+          {"name": "Irregular Skirmishers", "id": "a951-2339-c668-53a4", "hidden": false, "primary": false, "targetId": "0d0f-358f-351a-5088"},
+          {"name": "Leaders", "id": "953e-5462-9016-4e37", "hidden": false, "primary": false, "targetId": "612b-bffa-1303-f141"},
+          {"name": "Light Infantry", "id": "2f95-bb75-b4ef-707a", "hidden": false, "primary": false, "targetId": "802a-f3d2-7bfd-d7d8"},
+          {"name": "Militia", "id": "8b56-988b-de4c-cfd7", "hidden": false, "primary": false, "targetId": "42a3-0db0-975a-bc57"},
+          {"name": "Regulars", "id": "8738-dddc-767d-4065", "hidden": false, "primary": false, "targetId": "83e1-2188-7ecb-6a98"},
+          {"name": "Scouting Cavalry", "id": "0402-fe6c-77b8-f3f2", "hidden": false, "primary": false, "targetId": "a788-97af-54c1-f87a"},
+          {"name": "Skirmishers", "id": "9b71-9f90-44eb-d096", "hidden": false, "primary": false, "targetId": "bcc2-d8d3-8872-c543"},
+          {"name": "Support", "id": "d821-213f-a43c-aa5c", "hidden": false, "primary": false, "targetId": "a645-8a61-0128-7539"},
+          {"name": "Tribe", "id": "52a1-9eb8-4328-8b77", "hidden": false, "primary": false, "targetId": "f008-6343-9033-6590"},
+          {"name": "Wallahs", "id": "ddb5-06e6-71a7-a8c5", "hidden": false, "primary": false, "targetId": "166c-11d8-8426-6d8d"}
+        ]
+      }
+    ],
+    "profileTypes": [
+      {
+        "name": "Unit",
+        "id": "b3ef-efab-f259-e80c",
+        "characteristicTypes": [
+          {"name": "Formation", "id": "b379-f56c-8497-5a83"},
+          {"name": "First Fire", "id": "27fe-009e-561f-bffb"},
+          {"name": "Controlled Volley", "id": "7880-4c90-1869-6edb"},
+          {"name": "Crashing Volley", "id": "ed41-c95d-22bb-a5cb"},
+          {"name": "Step Out", "id": "5292-1356-4cea-f775"},
+          {"name": "Drill", "id": "2f16-fd62-50d0-883d"},
+          {"name": "Characteristics", "id": "161c-3c71-89d1-8434"},
+          {"name": "Size", "id": "dd38-a731-1e95-b17e"},
+          {"name": "Withdrawal Distance", "id": "426f-3e66-d211-7603"}
+        ]
+      },
+      {
+        "name": "Small Arms",
+        "id": "3d12-23d2-1e80-90e9",
+        "characteristicTypes": [
+          {"name": "Dice", "id": "d3f4-55d1-6991-789d"},
+          {"name": "Reload Actions", "id": "220c-3c3f-1dc0-551f"},
+          {"name": "0-12\"", "id": "172a-c93e-5129-b574"},
+          {"name": "12-24\"", "id": "4f23-b040-1e23-03b3"},
+          {"name": "24-36\"", "id": "6c84-eadf-e83c-3971"},
+          {"name": "36-48\"", "id": "013f-3d5e-9029-67a1"}
+        ]
+      },
+      {"name": "Leader", "id": "4f57-5615-f4ab-fb54"},
+      {
+        "name": "Artillery",
+        "id": "2973-78ef-ee1e-2532",
+        "characteristicTypes": [
+          {"name": "Dice", "id": "5a63-e4c4-c837-f277"},
+          {"name": "Reload Actions", "id": "0622-ed2e-33c7-b8a9"},
+          {"name": "Canister", "id": "2e1f-ade1-2cdd-5b2c"},
+          {"name": "0-60\"", "id": "f0aa-15da-ade9-81ef"},
+          {"name": "60\" And Over", "id": "3904-3906-e62a-abc2"}
+        ]
+      }
+    ],
+    "publications": [{"name": "Sharp Practice V2", "id": "717d-5e01-ec61-ca94"}],
+    "sharedProfiles": [
+      {
+        "name": "Breech Loading Carbine",
+        "id": "8c57-580a-f241-10ff",
+        "hidden": false,
+        "typeId": "3d12-23d2-1e80-90e9",
+        "typeName": "Small Arms",
+        "characteristics": [
+          {"name": "Dice", "$text": "1", "typeId": "d3f4-55d1-6991-789d"},
+          {"name": "Reload Actions", "$text": "0", "typeId": "220c-3c3f-1dc0-551f"},
+          {"name": "0-12\"", "$text": "Close", "typeId": "172a-c93e-5129-b574"},
+          {"name": "12-24\"", "$text": "Effective", "typeId": "4f23-b040-1e23-03b3"},
+          {"name": "24-36\"", "$text": "Long", "typeId": "6c84-eadf-e83c-3971"},
+          {"name": "36-48\"", "$text": "-", "typeId": "013f-3d5e-9029-67a1"}
+        ]
+      },
+      {
+        "name": "Breech Loading Rifle",
+        "id": "1491-1078-31bf-fe22",
+        "hidden": false,
+        "typeId": "3d12-23d2-1e80-90e9",
+        "typeName": "Small Arms",
+        "characteristics": [
+          {"name": "Dice", "$text": "1", "typeId": "d3f4-55d1-6991-789d"},
+          {"name": "Reload Actions", "$text": "0", "typeId": "220c-3c3f-1dc0-551f"},
+          {"name": "0-12\"", "$text": "Close", "typeId": "172a-c93e-5129-b574"},
+          {"name": "12-24\"", "$text": "Effective", "typeId": "4f23-b040-1e23-03b3"},
+          {"name": "24-36\"", "$text": "Long", "typeId": "6c84-eadf-e83c-3971"},
+          {"name": "36-48\"", "$text": "Long", "typeId": "013f-3d5e-9029-67a1"}
+        ]
+      },
+      {
+        "name": "Fowling Pieces",
+        "id": "b6db-4683-df9f-6ab6",
+        "hidden": false,
+        "typeId": "3d12-23d2-1e80-90e9",
+        "typeName": "Small Arms",
+        "characteristics": [
+          {"name": "Dice", "$text": "1", "typeId": "d3f4-55d1-6991-789d"},
+          {"name": "Reload Actions", "$text": "1", "typeId": "220c-3c3f-1dc0-551f"},
+          {"name": "0-12\"", "$text": "Effective", "typeId": "172a-c93e-5129-b574"},
+          {"name": "12-24\"", "$text": "Long", "typeId": "4f23-b040-1e23-03b3"},
+          {"name": "24-36\"", "$text": "-", "typeId": "6c84-eadf-e83c-3971"},
+          {"name": "36-48\"", "$text": "-", "typeId": "013f-3d5e-9029-67a1"}
+        ]
+      },
+      {
+        "name": "Heavy Gun",
+        "id": "bc04-6c02-42d6-5b79",
+        "hidden": false,
+        "typeId": "2973-78ef-ee1e-2532",
+        "typeName": "Artillery",
+        "characteristics": [
+          {"name": "Dice", "$text": "16", "typeId": "5a63-e4c4-c837-f277"},
+          {"name": "Reload Actions", "$text": "2", "typeId": "0622-ed2e-33c7-b8a9"},
+          {"name": "Canister", "$text": "0-30\"", "typeId": "2e1f-ade1-2cdd-5b2c"},
+          {"name": "0-60\"", "$text": "Effective", "typeId": "f0aa-15da-ade9-81ef"},
+          {"name": "60\" And Over", "$text": "Long", "typeId": "3904-3906-e62a-abc2"}
+        ]
+      },
+      {
+        "name": "Heavy Rocket",
+        "id": "7404-5403-5f10-b5e2",
+        "hidden": false,
+        "typeId": "2973-78ef-ee1e-2532",
+        "typeName": "Artillery",
+        "characteristics": [
+          {"name": "Dice", "$text": "12", "typeId": "5a63-e4c4-c837-f277"},
+          {"name": "Reload Actions", "$text": "2", "typeId": "0622-ed2e-33c7-b8a9"},
+          {"name": "Canister", "$text": "-", "typeId": "2e1f-ade1-2cdd-5b2c"},
+          {"name": "0-60\"", "$text": "-", "typeId": "f0aa-15da-ade9-81ef"},
+          {"name": "60\" And Over", "$text": "-", "typeId": "3904-3906-e62a-abc2"}
+        ]
+      },
+      {
+        "name": "Light Gun (4 pdr)",
+        "id": "05c9-a8e2-5d94-694f",
+        "hidden": false,
+        "typeId": "2973-78ef-ee1e-2532",
+        "typeName": "Artillery",
+        "characteristics": [
+          {"name": "Dice", "$text": "10", "typeId": "5a63-e4c4-c837-f277"},
+          {"name": "Reload Actions", "$text": "2", "typeId": "0622-ed2e-33c7-b8a9"},
+          {"name": "Canister", "$text": "0-18\"", "typeId": "2e1f-ade1-2cdd-5b2c"},
+          {"name": "0-60\"", "$text": "Effective", "typeId": "f0aa-15da-ade9-81ef"},
+          {"name": "60\" And Over", "$text": "Long", "typeId": "3904-3906-e62a-abc2"}
+        ]
+      },
+      {
+        "name": "Light Rocket",
+        "id": "ab86-6192-0496-5854",
+        "hidden": false,
+        "typeId": "2973-78ef-ee1e-2532",
+        "typeName": "Artillery",
+        "characteristics": [
+          {"name": "Dice", "$text": "8", "typeId": "5a63-e4c4-c837-f277"},
+          {"name": "Reload Actions", "$text": "2", "typeId": "0622-ed2e-33c7-b8a9"},
+          {"name": "Canister", "$text": "-", "typeId": "2e1f-ade1-2cdd-5b2c"},
+          {"name": "0-60\"", "$text": "-", "typeId": "f0aa-15da-ade9-81ef"},
+          {"name": "60\" And Over", "typeId": "3904-3906-e62a-abc2"}
+        ]
+      },
+      {
+        "name": "Medium Gun (6-9 pdr)",
+        "id": "4307-f19e-8d84-82bc",
+        "hidden": false,
+        "typeId": "2973-78ef-ee1e-2532",
+        "typeName": "Artillery",
+        "characteristics": [
+          {"name": "Dice", "$text": "12", "typeId": "5a63-e4c4-c837-f277"},
+          {"name": "Reload Actions", "$text": "2", "typeId": "0622-ed2e-33c7-b8a9"},
+          {"name": "Canister", "$text": "0-24\"", "typeId": "2e1f-ade1-2cdd-5b2c"},
+          {"name": "0-60\"", "$text": "Effective", "typeId": "f0aa-15da-ade9-81ef"},
+          {"name": "60\" And Over", "$text": "Long", "typeId": "3904-3906-e62a-abc2"}
+        ]
+      },
+      {
+        "name": "Musket",
+        "id": "0226-5b84-157f-379c",
+        "hidden": false,
+        "typeId": "3d12-23d2-1e80-90e9",
+        "typeName": "Small Arms",
+        "characteristics": [
+          {"name": "Dice", "$text": "1", "typeId": "d3f4-55d1-6991-789d"},
+          {"name": "Reload Actions", "$text": "1", "typeId": "220c-3c3f-1dc0-551f"},
+          {"name": "0-12\"", "$text": "Close", "typeId": "172a-c93e-5129-b574"},
+          {"name": "12-24\"", "$text": "Long", "typeId": "4f23-b040-1e23-03b3"},
+          {"name": "24-36\"", "$text": "-", "typeId": "6c84-eadf-e83c-3971"},
+          {"name": "36-48\"", "$text": "-", "typeId": "013f-3d5e-9029-67a1"}
+        ]
+      },
+      {
+        "name": "Repeating Pistol",
+        "id": "4455-acbd-e0a5-7289",
+        "hidden": false,
+        "typeId": "3d12-23d2-1e80-90e9",
+        "typeName": "Small Arms",
+        "characteristics": [
+          {"name": "Dice", "$text": "1", "typeId": "d3f4-55d1-6991-789d"},
+          {"name": "Reload Actions", "$text": "0", "typeId": "220c-3c3f-1dc0-551f"},
+          {"name": "0-12\"", "$text": "Effective to 6\"", "typeId": "172a-c93e-5129-b574"},
+          {"name": "12-24\"", "$text": "-", "typeId": "4f23-b040-1e23-03b3"},
+          {"name": "24-36\"", "$text": "-", "typeId": "6c84-eadf-e83c-3971"},
+          {"name": "36-48\"", "$text": "-", "typeId": "013f-3d5e-9029-67a1"}
+        ]
+      },
+      {
+        "name": "Rifle",
+        "id": "e556-1efd-a166-5c09",
+        "hidden": false,
+        "typeId": "3d12-23d2-1e80-90e9",
+        "typeName": "Small Arms",
+        "characteristics": [
+          {"name": "Dice", "$text": "1", "typeId": "d3f4-55d1-6991-789d"},
+          {"name": "Reload Actions", "$text": "2", "typeId": "220c-3c3f-1dc0-551f"},
+          {"name": "0-12\"", "$text": "Close", "typeId": "172a-c93e-5129-b574"},
+          {"name": "12-24\"", "$text": "Effective", "typeId": "4f23-b040-1e23-03b3"},
+          {"name": "24-36\"", "$text": "Long", "typeId": "6c84-eadf-e83c-3971"},
+          {"name": "36-48\"", "$text": "-", "typeId": "013f-3d5e-9029-67a1"}
+        ]
+      },
+      {
+        "name": "Rifled Carbine (Minie)",
+        "id": "3906-5824-14aa-89ac",
+        "hidden": false,
+        "typeId": "3d12-23d2-1e80-90e9",
+        "typeName": "Small Arms",
+        "characteristics": [
+          {"name": "Dice", "$text": "1", "typeId": "d3f4-55d1-6991-789d"},
+          {"name": "Reload Actions", "$text": "1", "typeId": "220c-3c3f-1dc0-551f"},
+          {"name": "0-12\"", "$text": "Close", "typeId": "172a-c93e-5129-b574"},
+          {"name": "12-24\"", "$text": "Effective", "typeId": "4f23-b040-1e23-03b3"},
+          {"name": "24-36\"", "$text": "Long", "typeId": "6c84-eadf-e83c-3971"},
+          {"name": "36-48\"", "$text": "-", "typeId": "013f-3d5e-9029-67a1"}
+        ]
+      },
+      {
+        "name": "Rifled Musket (Minie)",
+        "id": "0ef4-5389-3afc-9a5d",
+        "hidden": false,
+        "typeId": "3d12-23d2-1e80-90e9",
+        "typeName": "Small Arms",
+        "characteristics": [
+          {"name": "Dice", "$text": "1", "typeId": "d3f4-55d1-6991-789d"},
+          {"name": "Reload Actions", "$text": "1", "typeId": "220c-3c3f-1dc0-551f"},
+          {"name": "0-12\"", "$text": "Close", "typeId": "172a-c93e-5129-b574"},
+          {"name": "12-24\"", "$text": "Effective", "typeId": "4f23-b040-1e23-03b3"},
+          {"name": "24-36\"", "$text": "Long", "typeId": "6c84-eadf-e83c-3971"},
+          {"name": "36-48\"", "$text": "Long", "typeId": "013f-3d5e-9029-67a1"}
+        ]
+      },
+      {
+        "name": "Single Shot Pistol",
+        "id": "1c2a-00af-b9d5-259b",
+        "hidden": false,
+        "typeId": "3d12-23d2-1e80-90e9",
+        "typeName": "Small Arms",
+        "characteristics": [
+          {"name": "Dice", "$text": "1", "typeId": "d3f4-55d1-6991-789d"},
+          {"name": "Reload Actions", "$text": "1", "typeId": "220c-3c3f-1dc0-551f"},
+          {"name": "0-12\"", "$text": "Effective to 6\"", "typeId": "172a-c93e-5129-b574"},
+          {"name": "12-24\"", "$text": "-", "typeId": "4f23-b040-1e23-03b3"},
+          {"name": "24-36\"", "$text": "-", "typeId": "6c84-eadf-e83c-3971"},
+          {"name": "36-48\"", "$text": "-", "typeId": "013f-3d5e-9029-67a1"}
+        ]
+      },
+      {
+        "name": "Smoothbore Carbine",
+        "id": "ccf3-c666-f735-5c57",
+        "hidden": false,
+        "typeId": "3d12-23d2-1e80-90e9",
+        "typeName": "Small Arms",
+        "characteristics": [
+          {"name": "Dice", "$text": "1", "typeId": "d3f4-55d1-6991-789d"},
+          {"name": "Reload Actions", "$text": "1", "typeId": "220c-3c3f-1dc0-551f"},
+          {"name": "0-12\"", "$text": "Effective", "typeId": "172a-c93e-5129-b574"},
+          {"name": "12-24\"", "$text": "Long", "typeId": "4f23-b040-1e23-03b3"},
+          {"name": "24-36\"", "$text": "-", "typeId": "6c84-eadf-e83c-3971"},
+          {"name": "36-48\"", "$text": "-", "typeId": "013f-3d5e-9029-67a1"}
+        ]
+      },
+      {
+        "name": "Sabre",
+        "id": "9c40-10a6-8344-6862",
+        "hidden": false,
+        "typeId": "3d12-23d2-1e80-90e9",
+        "typeName": "Small Arms",
+        "characteristics": [
+          {"name": "Dice", "typeId": "d3f4-55d1-6991-789d"},
+          {"name": "Reload Actions", "typeId": "220c-3c3f-1dc0-551f"},
+          {"name": "0-12\"", "typeId": "172a-c93e-5129-b574"},
+          {"name": "12-24\"", "typeId": "4f23-b040-1e23-03b3"},
+          {"name": "24-36\"", "typeId": "6c84-eadf-e83c-3971"},
+          {"name": "36-48\"", "typeId": "013f-3d5e-9029-67a1"}
+        ]
+      }
+    ],
+    "sharedRules": [
+      {
+        "name": "Breech Loading Weapons",
+        "id": "08a1-8edc-521c-87ec",
+        "description": "Where Breach Loading weapons are being fired at maximum rate, one round for each Action, this can result in a large amount of smoke being created. If the next card dealt after a unit has fired in this way is the Tiffin card, a pall of smoke will be placed immediately in front of the unit. All firing through the smoke will be done with a ‐1 to hit until the smoke clears at the end of the current Chapter.",
+        "hidden": false
+      },
+      {
+        "name": "Physic",
+        "id": "5a2d-9474-f477-8c4e",
+        "description": "A Physic is part of the force commander’s retinue, and is activated on the force commander’s card at no cost in Command Initiative.",
+        "hidden": false,
+        "page": 80,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {"name": "Holy Man", "id": "ec1c-7f9e-3500-34e0", "hidden": false, "page": 80, "publicationId": "717d-5e01-ec61-ca94"},
+      {
+        "name": "Relic",
+        "id": "40f4-2230-1719-8904",
+        "description": "To use a relic, a force must also have a Holy Man present. A relic will allow a Holy Man to make a second rallying roll during the game.",
+        "hidden": false,
+        "page": 81,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Musician",
+        "id": "2484-d698-8d7c-880c",
+        "description": "A musician may be attached to the force commander, enabling him to double his Command Range and to add +1 to any roll on the Uncontrolled Troops table.",
+        "hidden": false,
+        "page": 81,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Barricade",
+        "id": "bd88-2c01-29f6-b4e0",
+        "description": "It provides light cover and is a Major Obstacle. A single barricade will be 4” in length.",
+        "hidden": false,
+        "page": 81,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Ladder",
+        "id": "06ea-06c0-982f-f92d",
+        "description": "Purchasing Ladders as a support option provides four Ladders of around two storeys in height.",
+        "hidden": false,
+        "page": 81,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Spirits & Tinder Box",
+        "id": "79e0-4307-bc4b-beed",
+        "description": "Spirits and Tinder Box are used to set alight to items as part of a Task. Purchasing these provides them for two Groups.",
+        "hidden": false,
+        "page": 81,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Marksman",
+        "id": "79c9-7166-de7e-076e",
+        "description": "A marksman will be part of a group of Skirmish Troops. He can fire at a target with a greater chance of success, using the Marksman row on the Arsenal table. Any Shock inflicted by such firing is doubled. Any kill is rolled for, with a score of 1 or 2 resulting in a Leader casualty.",
+        "hidden": false,
+        "page": 66,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {"name": "Dipper", "id": "4e13-53f9-eaab-e131", "hidden": false, "page": 66, "publicationId": "717d-5e01-ec61-ca94"},
+      {"name": "Cracksman", "id": "dd3d-21db-dca1-fd5c", "hidden": false, "page": 66, "publicationId": "717d-5e01-ec61-ca94"},
+      {
+        "name": "Silent But Deadly",
+        "id": "0abc-38ff-7553-f830",
+        "description": "When activated, he can move 3D6 inches and, if he makes contact with his target, attempt to despatch him with a knife or cosh him if he prefers to take the man prisoner. Roll 2D6 on the Sneaky Actions chart below.",
+        "hidden": false,
+        "page": 66,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Additional Canister",
+        "id": "4244-c50d-7ed3-8057",
+        "description": "Artillery are limited to three rounds of canister. This option will add a further three additional rounds of canister for a single gun.",
+        "hidden": false,
+        "page": 81,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {"name": "Fixed Secondary Deployment Point", "id": "e227-38b4-5b7d-1d33", "hidden": false, "page": 81, "publicationId": "717d-5e01-ec61-ca94"},
+      {
+        "name": "Moveable Deployment Point",
+        "id": "75e3-063f-bb31-3ea3",
+        "description": "A Moveable Deployment Point may be placed on any part of the table within 24” of the Primary Deployment Point and further than 30” from any of the enemy Deployment Points. Each time the Leader commanding the force’s card or chip is dealt or drawn (not on any bonus move due to Command Cards), this Deployment Point may be moved up to 12”, providing it begins and ends its movement out of line of sight of any enemy units or Deployment Points. Once any unit has deployed from a Moveable Deployment Point, it can no longer move.",
+        "hidden": false,
+        "page": 82,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Train Defence Group",
+        "id": "f6db-502f-e7ce-3fa1",
+        "description": "They function as Militia and are armed with muskets, with a single Status I Leader. However they may not move more than 12” from the train.",
+        "hidden": false,
+        "page": 82,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Water Cart",
+        "id": "1455-dbdb-aadd-7a7d",
+        "description": "A Water Cart provides unlimited water for the force for the whole game.",
+        "hidden": false,
+        "page": 82,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Breastwork",
+        "id": "2b25-3254-d111-bfd4",
+        "description": "It provides hard cover and is a Major Obstacle. A single Breastwork will be 4” in length.",
+        "hidden": false,
+        "page": 82,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {"name": "Exploring Officer or Scout", "id": "8198-dfbc-7063-dad3", "hidden": false, "page": 82, "publicationId": "717d-5e01-ec61-ca94"},
+      {
+        "name": "Colour Party",
+        "id": "4aac-3ae0-71e3-1c4b",
+        "description": "A Colour Party will be made up of one or two men with flags. These men will not fire or fight in Fisticuffs, but they will count as two men (even if only one figures is used) for the purposes of calculating the effect of Shock on cfany Group they are attached to.",
+        "hidden": false,
+        "page": 83,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Ammunition Cart",
+        "id": "35f5-2684-4c79-9c7f",
+        "description": "An Ammunition Cart provides unlimited ammunition for the force for the whole game.",
+        "hidden": false,
+        "page": 83,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Mule Train",
+        "id": "0c41-2fd6-2108-581b",
+        "description": "A Mule Train can provide limited supplies, providing one lot of water and one lot of ammunition to be used in a game.",
+        "hidden": false,
+        "page": 83,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {"name": "Engineer Group With Cart", "id": "4659-29c3-7d87-f92b", "hidden": false, "page": 83, "publicationId": "717d-5e01-ec61-ca94"},
+      {
+        "name": "Aggressive",
+        "id": "3768-904b-637a-dffd",
+        "description": "Aggressive troops are up for a fight and will have an advantage in Fisticuffs.",
+        "hidden": false
+      },
+      {
+        "name": "Good Shots",
+        "id": "719b-410b-e9b1-5b42",
+        "description": "Add one additional D6 for each Group firing",
+        "hidden": false,
+        "page": 84,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Hearth & Home",
+        "id": "6e55-5bb8-087b-5967",
+        "description": "These troops are better when fighting to defend their own property and families. When operating in their home district, these troops may change their Step Out rating to 2 or, of already at 2, may reduce it to 1. When operating away from their home district, these troops become Weedy Coves.",
+        "hidden": false,
+        "page": 84,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "In Hand",
+        "id": "450e-d64a-1e38-c085",
+        "description": "Superbly trained cavalry who will double any Shock rallied from them when stationary or when moving away from the enemy.",
+        "hidden": false,
+        "page": 84,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "No Bayonets",
+        "id": "ba53-b155-3f31-f57c",
+        "description": "These troops are at a disadvantage in Fisticuffs.",
+        "hidden": false,
+        "page": 84,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Poor Shots",
+        "id": "1beb-f9e3-e263-7f36",
+        "description": "Reduce the number of D6 a Group rolls when firing by 1.",
+        "hidden": false,
+        "page": 84,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Prominent Leader",
+        "id": "fdd4-6315-5ca0-97d4",
+        "description": "This Unit depends heavily on its Leader. If he is wounded or killed, they roll twice on the Force Morale table. If he dies their troop rating is reduced by one if that is possible. For example, Tribe become Wallahs, Elites become Regulars.",
+        "hidden": false,
+        "page": 84,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Stubborn",
+        "id": "d681-3b7a-7764-7bed",
+        "description": "Stubborn troops will ignore a Defeated by One result in Fisticuffs and will fight another round immediately.",
+        "hidden": false,
+        "page": 84,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Surly",
+        "id": "dc9b-9c55-57fd-5f59",
+        "description": "When bad things happen to Surly troops, they re‐roll any 1’s rolled when taking a Force Morale Test. This only happens when the bad thing happens to a Surly Unit, not when they are part of the force.",
+        "hidden": false,
+        "page": 84,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Weedy Coves",
+        "id": "2735-b463-a1d6-c07d",
+        "description": "These fellows are likely to perform badly in Fisticuffs.",
+        "hidden": false,
+        "page": 84,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Sharp Practice",
+        "id": "7fc9-084e-faae-e5c3",
+        "description": "Whenever two Command Cards are played, a Group or Formation which is loaded can immediately fire. If it is already firing Controlled Volleys the fire may be Controlled. If the Group or Formation is unloaded, it may completely reload, even if their weapon takes two Actions to reload.",
+        "hidden": false,
+        "page": 85,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Tactical",
+        "id": "3cb0-011f-c4be-4e97",
+        "description": "Units who have a Tactical Characteristic can perform an Ambuscade when they are activated and have two Command Cards available to use.",
+        "hidden": false,
+        "page": 85,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Tally Ho!",
+        "id": "d8bb-78dc-6083-d86b",
+        "description": "When two Command Cards are used with a Leader’s activation, it can add one additional D6 of movement. Add 2D6 per Group fighting in any resultant Fisticuffs.",
+        "hidden": false,
+        "page": 85,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Thin Red Line",
+        "id": "61d8-7f71-a94a-faf4",
+        "description": "When two Command Cards are used with a Leader’s activation, a Group or Formation of British Infantry may fire a volley and charge with three Actions of movement.",
+        "hidden": false,
+        "page": 85,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Tomahawks",
+        "id": "aaf0-ea31-abe9-6385",
+        "description": "The psychological impact of this is reflected by rolling 1D6 for each man in the attacking Unit, causing one point of shock on the enemy for each 5 or 6 rolled. This Shock is applied before Fisticuffs takes place. It is only used the first time any Unit thus armed attacks in a game.",
+        "hidden": false,
+        "page": 86,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Fighting Cocks",
+        "id": "e56d-86d5-09a1-1841",
+        "description": "A Portuguese Unit in Fisticuffs will ignore Defeated by One and defeated by Two results, fighting another round of Fisticuffs immediately.",
+        "hidden": false,
+        "page": 101,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Pas de Charge",
+        "id": "b282-e47c-c126-46ef",
+        "description": "When two Command Cards are used with a Leader’s activation, a Group or Formation of French Infantry can move towards the enemy with three Actions of movement whilst also removing two points of Shock from each Group present.",
+        "hidden": false,
+        "page": 105,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Cuirass",
+        "id": "3c65-797a-987b-bb23",
+        "description": "Cavalry equipped with a Cuirass may ignore one kill result in any round of Fisticuffs. However, this kill may still inflict a point of Shock if a 6 is rolled.",
+        "hidden": false,
+        "page": 105,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Mixed Weapons",
+        "id": "b1d9-a8a7-72ed-522d",
+        "description": "Armed with a mixture of firearms, these cavalry may dismount and fight as Dragoons but with half of the men deemed to have Rifled Muskets and half close quarter weapons which are not suitable for ranged fire.",
+        "hidden": false,
+        "page": 108,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Sam Colt's Equalizers",
+        "id": "db57-7c03-0a6f-6af2",
+        "description": "These cavalry are equipped with a selection of firearms which they may use immediately before Fisticuffs. When an attack is combined with two Command Cards, each man in Group about to make contact discharges his firearm in the face of the enemy. Roll a D6 for each man. On a roll of 4, 5 or 6 they will inflict one point of Shock on the enemy Groups they are about to contact. Fisticuffs is now fought immediately.",
+        "hidden": false,
+        "page": 108,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Buck and Ball",
+        "id": "0ea2-499f-c9c6-7346",
+        "description": "Armed with smoothbore muskets, these troops add +1 to their roll to hit when firing at Close range.",
+        "hidden": false,
+        "page": 108,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Rebel Yell",
+        "id": "b4a5-5aaa-9912-2514",
+        "description": "When two Command Cards are used with a Leader’s activation, a Group or Formation of Rebel Infantry may fire a volley, if loaded, and charge with three Actions of movement.",
+        "hidden": false,
+        "page": 108,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Big Choppers",
+        "id": "eb30-cfe7-f727-7a83",
+        "description": "These troops have no ranged fire capability but are very aggressive and well versed in close combat. In the first round of Fisticuffs they fight as Clan rather than Wallahs.",
+        "hidden": false,
+        "page": 115,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Fowling Piece",
+        "id": "56dc-c953-1433-335e",
+        "description": "When fired by a gentleman, add +1 to the roll to hit.",
+        "hidden": false,
+        "page": 44,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Flashing Blade",
+        "id": "e34b-0511-c831-a1fd",
+        "description": "In a duel he may use an additional swordsmanship dice in the first and any one subsequent round of combat.",
+        "hidden": false,
+        "page": 60,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "View Halloo",
+        "id": "7036-9fec-4d49-8090",
+        "description": "A fine horseman who may re‐roll if he pulls up when crossing an obstacle while mounted.",
+        "hidden": false,
+        "page": 60,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Stunning Linguist",
+        "id": "4fb9-abd9-c4bd-b367",
+        "description": "He may add +1 to the dice roll when rolling for success when speaking to any foreign minor characters.",
+        "hidden": false,
+        "page": 60,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Impressive Weapon",
+        "id": "c4d5-3606-d316-072f",
+        "description": "In a duel he has a greater chance of inflicting damage on his opponent.",
+        "hidden": false,
+        "page": 60,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Master of Disguise",
+        "id": "a1f7-e70d-d032-ce62",
+        "description": "This Leader has an impressive flair for disguise, and gains a +1 when attempting to pass himself off as someone else.",
+        "hidden": false,
+        "page": 60,
+        "publicationId": "717d-5e01-ec61-ca94"
+      },
+      {
+        "name": "Sporting Life",
+        "id": "f0eb-1296-f844-62ec",
+        "description": "He gains an advantage when attempting Tasks requiring physical strength or prowess.",
+        "hidden": false,
+        "page": 60,
+        "publicationId": "717d-5e01-ec61-ca94"
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Single Shot Pistol",
+        "id": "0307-56eb-526c-159a",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}],
+        "profiles": [
+          {
+            "name": "Single Shot Pistol",
+            "id": "fc3a-d017-47f1-3477",
+            "hidden": false,
+            "typeId": "3d12-23d2-1e80-90e9",
+            "typeName": "Small Arms",
+            "characteristics": [
+              {"name": "Dice", "$text": "1", "typeId": "d3f4-55d1-6991-789d"},
+              {"name": "Reload Actions", "$text": "1", "typeId": "220c-3c3f-1dc0-551f"},
+              {"name": "0-12\"", "$text": "Effective to 6\"", "typeId": "172a-c93e-5129-b574"},
+              {"name": "12-24\"", "$text": "-", "typeId": "4f23-b040-1e23-03b3"},
+              {"name": "24-36\"", "$text": "-", "typeId": "6c84-eadf-e83c-3971"},
+              {"name": "36-48\"", "$text": "-", "typeId": "013f-3d5e-9029-67a1"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Repeating Pistol",
+        "id": "e8d5-149a-0c37-654f",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}],
+        "profiles": [
+          {
+            "name": "Repeating Pistol",
+            "id": "3dc7-f141-d378-497b",
+            "hidden": false,
+            "typeId": "3d12-23d2-1e80-90e9",
+            "typeName": "Small Arms",
+            "characteristics": [
+              {"name": "Dice", "$text": "1", "typeId": "d3f4-55d1-6991-789d"},
+              {"name": "Reload Actions", "$text": "0", "typeId": "220c-3c3f-1dc0-551f"},
+              {"name": "0-12\"", "$text": "Effective to 6\"", "typeId": "172a-c93e-5129-b574"},
+              {"name": "12-24\"", "$text": "-", "typeId": "4f23-b040-1e23-03b3"},
+              {"name": "24-36\"", "$text": "-", "typeId": "6c84-eadf-e83c-3971"},
+              {"name": "36-48\"", "$text": "-", "typeId": "013f-3d5e-9029-67a1"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Smoothbore Carbine",
+        "id": "6f74-fcb8-bb85-c420",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}],
+        "profiles": [
+          {
+            "name": "Smoothbore Carbine",
+            "id": "4e30-cfa5-fef9-6411",
+            "hidden": false,
+            "typeId": "3d12-23d2-1e80-90e9",
+            "typeName": "Small Arms",
+            "characteristics": [
+              {"name": "Dice", "$text": "1", "typeId": "d3f4-55d1-6991-789d"},
+              {"name": "Reload Actions", "$text": "1", "typeId": "220c-3c3f-1dc0-551f"},
+              {"name": "0-12\"", "$text": "Effective", "typeId": "172a-c93e-5129-b574"},
+              {"name": "12-24\"", "$text": "Long", "typeId": "4f23-b040-1e23-03b3"},
+              {"name": "24-36\"", "$text": "-", "typeId": "6c84-eadf-e83c-3971"},
+              {"name": "36-48\"", "$text": "-", "typeId": "013f-3d5e-9029-67a1"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fowling Pieces",
+        "id": "e3cd-d2fe-22c0-3a56",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}],
+        "profiles": [
+          {
+            "name": "Fowling Pieces",
+            "id": "91ec-30fc-9686-3eec",
+            "hidden": false,
+            "typeId": "3d12-23d2-1e80-90e9",
+            "typeName": "Small Arms",
+            "characteristics": [
+              {"name": "Dice", "$text": "1", "typeId": "d3f4-55d1-6991-789d"},
+              {"name": "Reload Actions", "$text": "1", "typeId": "220c-3c3f-1dc0-551f"},
+              {"name": "0-12\"", "$text": "Effective", "typeId": "172a-c93e-5129-b574"},
+              {"name": "12-24\"", "$text": "Long", "typeId": "4f23-b040-1e23-03b3"},
+              {"name": "24-36\"", "$text": "-", "typeId": "6c84-eadf-e83c-3971"},
+              {"name": "36-48\"", "$text": "-", "typeId": "013f-3d5e-9029-67a1"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Musket",
+        "id": "1f49-558e-43d2-ff90",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}],
+        "profiles": [
+          {
+            "name": "Musket",
+            "id": "957b-7696-7314-bb30",
+            "hidden": false,
+            "typeId": "3d12-23d2-1e80-90e9",
+            "typeName": "Small Arms",
+            "characteristics": [
+              {"name": "Dice", "$text": "1", "typeId": "d3f4-55d1-6991-789d"},
+              {"name": "Reload Actions", "$text": "1", "typeId": "220c-3c3f-1dc0-551f"},
+              {"name": "0-12\"", "$text": "Close", "typeId": "172a-c93e-5129-b574"},
+              {"name": "12-24\"", "$text": "Long", "typeId": "4f23-b040-1e23-03b3"},
+              {"name": "24-36\"", "$text": "-", "typeId": "6c84-eadf-e83c-3971"},
+              {"name": "36-48\"", "$text": "-", "typeId": "013f-3d5e-9029-67a1"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rifle",
+        "id": "7d97-ff11-99bc-e650",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}],
+        "profiles": [
+          {
+            "name": "Rifle",
+            "id": "7a4d-225e-9b2d-2ba0",
+            "hidden": false,
+            "typeId": "3d12-23d2-1e80-90e9",
+            "typeName": "Small Arms",
+            "characteristics": [
+              {"name": "Dice", "$text": "1", "typeId": "d3f4-55d1-6991-789d"},
+              {"name": "Reload Actions", "$text": "2", "typeId": "220c-3c3f-1dc0-551f"},
+              {"name": "0-12\"", "$text": "Close", "typeId": "172a-c93e-5129-b574"},
+              {"name": "12-24\"", "$text": "Effective", "typeId": "4f23-b040-1e23-03b3"},
+              {"name": "24-36\"", "$text": "Long", "typeId": "6c84-eadf-e83c-3971"},
+              {"name": "36-48\"", "$text": "-", "typeId": "013f-3d5e-9029-67a1"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rifled Carbine (Minie)",
+        "id": "0e76-c320-c7c7-7e1f",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}],
+        "profiles": [
+          {
+            "name": "Rifled Carbine (Minie)",
+            "id": "c118-b2f3-2435-9223",
+            "hidden": false,
+            "typeId": "3d12-23d2-1e80-90e9",
+            "typeName": "Small Arms",
+            "characteristics": [
+              {"name": "Dice", "$text": "1", "typeId": "d3f4-55d1-6991-789d"},
+              {"name": "Reload Actions", "$text": "1", "typeId": "220c-3c3f-1dc0-551f"},
+              {"name": "0-12\"", "$text": "Close", "typeId": "172a-c93e-5129-b574"},
+              {"name": "12-24\"", "$text": "Effective", "typeId": "4f23-b040-1e23-03b3"},
+              {"name": "24-36\"", "$text": "Long", "typeId": "6c84-eadf-e83c-3971"},
+              {"name": "36-48\"", "$text": "-", "typeId": "013f-3d5e-9029-67a1"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rifled Musket (Minie)",
+        "id": "c8b1-dab2-e721-c65f",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}],
+        "profiles": [
+          {
+            "name": "Rifled Musket (Minie)",
+            "id": "1081-55c3-7fba-07d2",
+            "hidden": false,
+            "typeId": "3d12-23d2-1e80-90e9",
+            "typeName": "Small Arms",
+            "characteristics": [
+              {"name": "Dice", "$text": "1", "typeId": "d3f4-55d1-6991-789d"},
+              {"name": "Reload Actions", "$text": "1", "typeId": "220c-3c3f-1dc0-551f"},
+              {"name": "0-12\"", "$text": "Close", "typeId": "172a-c93e-5129-b574"},
+              {"name": "12-24\"", "$text": "Effective", "typeId": "4f23-b040-1e23-03b3"},
+              {"name": "24-36\"", "$text": "Long", "typeId": "6c84-eadf-e83c-3971"},
+              {"name": "36-48\"", "$text": "Long", "typeId": "013f-3d5e-9029-67a1"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Breech Loading Carbine",
+        "id": "30d5-fa74-2ae5-ca09",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}],
+        "profiles": [
+          {
+            "name": "Breech Loading Carbine",
+            "id": "d81f-3616-2371-a9de",
+            "hidden": false,
+            "typeId": "3d12-23d2-1e80-90e9",
+            "typeName": "Small Arms",
+            "characteristics": [
+              {"name": "Dice", "$text": "1", "typeId": "d3f4-55d1-6991-789d"},
+              {"name": "Reload Actions", "$text": "0", "typeId": "220c-3c3f-1dc0-551f"},
+              {"name": "0-12\"", "$text": "Close", "typeId": "172a-c93e-5129-b574"},
+              {"name": "12-24\"", "$text": "Effective", "typeId": "4f23-b040-1e23-03b3"},
+              {"name": "24-36\"", "$text": "Long", "typeId": "6c84-eadf-e83c-3971"},
+              {"name": "36-48\"", "$text": "-", "typeId": "013f-3d5e-9029-67a1"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Breech Loading Rifle",
+        "id": "fb42-d94c-c9e0-82ce",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}],
+        "profiles": [
+          {
+            "name": "Breech Loading Rifle",
+            "id": "d948-407f-e5c1-9001",
+            "hidden": false,
+            "typeId": "3d12-23d2-1e80-90e9",
+            "typeName": "Small Arms",
+            "characteristics": [
+              {"name": "Dice", "$text": "1", "typeId": "d3f4-55d1-6991-789d"},
+              {"name": "Reload Actions", "$text": "0", "typeId": "220c-3c3f-1dc0-551f"},
+              {"name": "0-12\"", "$text": "Close", "typeId": "172a-c93e-5129-b574"},
+              {"name": "12-24\"", "$text": "Effective", "typeId": "4f23-b040-1e23-03b3"},
+              {"name": "24-36\"", "$text": "Long", "typeId": "6c84-eadf-e83c-3971"},
+              {"name": "36-48\"", "$text": "Long", "typeId": "013f-3d5e-9029-67a1"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Light Gun (4 pdr)",
+        "id": "3144-02ca-6584-6710",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}],
+        "profiles": [
+          {
+            "name": "Light Gun (4 pdr)",
+            "id": "7140-2be4-438c-669e",
+            "hidden": false,
+            "typeId": "2973-78ef-ee1e-2532",
+            "typeName": "Artillery",
+            "characteristics": [
+              {"name": "Dice", "$text": "10", "typeId": "5a63-e4c4-c837-f277"},
+              {"name": "Reload Actions", "$text": "2", "typeId": "0622-ed2e-33c7-b8a9"},
+              {"name": "Canister", "$text": "0-18\"", "typeId": "2e1f-ade1-2cdd-5b2c"},
+              {"name": "0-60\"", "$text": "Effective", "typeId": "f0aa-15da-ade9-81ef"},
+              {"name": "60\" And Over", "$text": "Long", "typeId": "3904-3906-e62a-abc2"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Medium Gun (6-9 pdr)",
+        "id": "77ca-8184-67fb-b689",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 1}],
+        "profiles": [
+          {
+            "name": "Medium Gun (6-9 pdr)",
+            "id": "4fb3-c8f2-5eea-83b1",
+            "hidden": false,
+            "typeId": "2973-78ef-ee1e-2532",
+            "typeName": "Artillery",
+            "characteristics": [
+              {"name": "Dice", "$text": "12", "typeId": "5a63-e4c4-c837-f277"},
+              {"name": "Reload Actions", "$text": "2", "typeId": "0622-ed2e-33c7-b8a9"},
+              {"name": "Canister", "$text": "0-24\"", "typeId": "2e1f-ade1-2cdd-5b2c"},
+              {"name": "0-60\"", "$text": "Effective", "typeId": "f0aa-15da-ade9-81ef"},
+              {"name": "60\" And Over", "$text": "Long", "typeId": "3904-3906-e62a-abc2"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Heavy Gun (12 pdr)",
+        "id": "43b9-4819-cb0c-f0e3",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 3}],
+        "profiles": [
+          {
+            "name": "Heavy Gun",
+            "id": "0be7-2a05-4210-3b21",
+            "hidden": false,
+            "typeId": "2973-78ef-ee1e-2532",
+            "typeName": "Artillery",
+            "characteristics": [
+              {"name": "Dice", "$text": "16", "typeId": "5a63-e4c4-c837-f277"},
+              {"name": "Reload Actions", "$text": "2", "typeId": "0622-ed2e-33c7-b8a9"},
+              {"name": "Canister", "$text": "0-30\"", "typeId": "2e1f-ade1-2cdd-5b2c"},
+              {"name": "0-60\"", "$text": "Effective", "typeId": "f0aa-15da-ade9-81ef"},
+              {"name": "60\" And Over", "$text": "Long", "typeId": "3904-3906-e62a-abc2"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Light Rocket",
+        "id": "fa07-f837-82e0-4723",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}],
+        "profiles": [
+          {
+            "name": "Light Rocket",
+            "id": "98e1-4cd3-f3d1-e68f",
+            "hidden": false,
+            "typeId": "2973-78ef-ee1e-2532",
+            "typeName": "Artillery",
+            "characteristics": [
+              {"name": "Dice", "$text": "8", "typeId": "5a63-e4c4-c837-f277"},
+              {"name": "Reload Actions", "$text": "2", "typeId": "0622-ed2e-33c7-b8a9"},
+              {"name": "Canister", "$text": "-", "typeId": "2e1f-ade1-2cdd-5b2c"},
+              {"name": "0-60\"", "$text": "-", "typeId": "f0aa-15da-ade9-81ef"},
+              {"name": "60\" And Over", "typeId": "3904-3906-e62a-abc2"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Heavy Rocket",
+        "id": "21ff-322a-a3f6-a78e",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}],
+        "profiles": [
+          {
+            "name": "Heavy Rocket",
+            "id": "01f8-0944-ac46-1777",
+            "hidden": false,
+            "typeId": "2973-78ef-ee1e-2532",
+            "typeName": "Artillery",
+            "characteristics": [
+              {"name": "Dice", "$text": "12", "typeId": "5a63-e4c4-c837-f277"},
+              {"name": "Reload Actions", "$text": "2", "typeId": "0622-ed2e-33c7-b8a9"},
+              {"name": "Canister", "$text": "-", "typeId": "2e1f-ade1-2cdd-5b2c"},
+              {"name": "0-60\"", "$text": "-", "typeId": "f0aa-15da-ade9-81ef"},
+              {"name": "60\" And Over", "$text": "-", "typeId": "3904-3906-e62a-abc2"}
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedSelectionEntryGroups": [
+      {
+        "name": "Support Options",
+        "id": "f9fa-f4cd-e965-48ea",
+        "collective": false,
+        "hidden": false,
+        "selectionEntries": [
+          {
+            "name": "Barricade",
+            "id": "41d5-3ae9-490e-3493",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 1}]
+          },
+          {
+            "name": "Holy Man",
+            "id": "a774-c50f-04b3-3fe3",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 1}],
+            "selectionEntries": [
+              {
+                "name": "Relic",
+                "id": "face-1136-4895-654a",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 3}]
+              }
+            ]
+          },
+          {
+            "name": "Ladder",
+            "id": "867b-9f11-8802-c0f8",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 1}]
+          },
+          {
+            "name": "Marksman",
+            "id": "2488-0c4f-47c7-6f8c",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "ecb3-407d-fbee-bacb",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 2}]
+          },
+          {
+            "name": "Musician",
+            "id": "193c-b437-08e7-c4aa",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 1}]
+          },
+          {
+            "name": "Physic",
+            "id": "e72e-e13b-66ee-d7c5",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+          },
+          {
+            "name": "Dipper",
+            "id": "701f-63b0-ac81-7ae1",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 2}]
+          },
+          {
+            "name": "Cracksman",
+            "id": "945f-f28f-c024-dc21",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 2}]
+          },
+          {
+            "name": "Silent But Deadly",
+            "id": "db7e-138e-43df-bc3e",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 2}]
+          },
+          {
+            "name": "Additional Canister",
+            "id": "6129-3562-b0ce-fba6",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 2}]
+          },
+          {
+            "name": "Fixed Secondary Deployment Point",
+            "id": "6d74-5d7e-c5c9-298e",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 2}]
+          },
+          {
+            "name": "Moveable Deployment Point",
+            "id": "8654-2999-a253-1765",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 2}]
+          },
+          {
+            "name": "Train Defence Group",
+            "id": "c1cb-1179-0e42-9e1d",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 3}]
+          },
+          {
+            "name": "Water Cart",
+            "id": "5135-8d51-093f-5aee",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 2}]
+          },
+          {
+            "name": "Breastwork",
+            "id": "697c-a6dc-3509-8e6a",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 2}]
+          },
+          {
+            "name": "Exploring Officer or Scout",
+            "id": "3408-147d-12d6-23a8",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 3}]
+          },
+          {
+            "name": "Colour Party",
+            "id": "bbc9-9fe3-7dd8-4d4f",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 3}]
+          },
+          {
+            "name": "Ammunition Cart",
+            "id": "0e51-e52f-92dc-c6e2",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 3}]
+          },
+          {
+            "name": "Mule Train",
+            "id": "26f2-0402-a643-a1cf",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 4}]
+          },
+          {
+            "name": "Engineer Group With Cart",
+            "id": "726d-7110-c9cf-3965",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 5}]
+          },
+          {
+            "name": "Dummy Movable Deployment Point",
+            "id": "058d-634e-c0dd-78bf",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 1}]
+          },
+          {
+            "name": "Spirits and Tinder Box",
+            "id": "d7e3-1846-4fbd-afa7",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 1}]
+          }
+        ]
+      },
+      {
+        "name": "Leader",
+        "id": "c30a-e677-a3c5-4987",
+        "collective": false,
+        "hidden": false,
+        "categoryLinks": [{"name": "New CategoryLink", "id": "d414-cd67-5922-0a7f", "hidden": false, "primary": true, "targetId": "612b-bffa-1303-f141"}],
+        "selectionEntryGroups": [
+          {
+            "name": "Charisma",
+            "id": "83d2-90f2-f63f-877a",
+            "collective": false,
+            "hidden": false,
+            "categoryLinks": [{"name": "New CategoryLink", "id": "03b5-8036-39cb-9b30", "hidden": false, "primary": true, "targetId": "612b-bffa-1303-f141"}],
+            "constraints": [
+              {
+                "id": "573b-4093-4aac-a9a3",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Vile individual",
+                "id": "c02f-c1d2-fa2a-3f2d",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              },
+              {
+                "name": "Thoroughly dislikeable",
+                "id": "9f7f-62b3-7f69-f303",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              },
+              {
+                "name": "Dullard",
+                "id": "ed34-e31e-ac8e-1fd4",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              },
+              {
+                "name": "Pleasant",
+                "id": "6dae-07f7-9817-c630",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              },
+              {
+                "name": "Affable",
+                "id": "f276-d999-cf74-71b7",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              },
+              {
+                "name": "Charming",
+                "id": "8e5c-b68f-311a-9b41",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              }
+            ]
+          },
+          {
+            "name": "Looks",
+            "id": "60a4-bd2d-3392-5a69",
+            "collective": false,
+            "hidden": false,
+            "categoryLinks": [{"name": "New CategoryLink", "id": "e72c-3348-f7f8-70f8", "hidden": false, "primary": true, "targetId": "612b-bffa-1303-f141"}],
+            "constraints": [
+              {
+                "id": "151c-a200-98d3-c1f0",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Hideous Freak",
+                "id": "e1b1-b10b-d0c8-cc43",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              },
+              {
+                "name": "Face like a pig's backside",
+                "id": "d30e-3e6d-23ff-3248",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              },
+              {
+                "name": "No looker",
+                "id": "b6b5-d1be-b5dc-01f3",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              },
+              {
+                "name": "Plain and unremarkable",
+                "id": "4994-8dc9-15f2-d976",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              },
+              {
+                "name": "Fair of face",
+                "id": "df9f-8dfd-73da-606a",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              },
+              {
+                "name": "Good looking chap",
+                "id": "046e-311e-dcc4-c92c",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              },
+              {
+                "name": "Handsome Devil",
+                "id": "c1c1-7098-2dd8-f8d5",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              }
+            ]
+          },
+          {
+            "name": "Officer's Breeding",
+            "id": "c2ed-069f-4b61-a60f",
+            "collective": false,
+            "hidden": false,
+            "categoryLinks": [{"name": "New CategoryLink", "id": "9a6d-919a-1477-5db0", "hidden": false, "primary": true, "targetId": "612b-bffa-1303-f141"}],
+            "constraints": [
+              {
+                "id": "c62a-1004-c112-6525",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Risen from the ranks",
+                "id": "247e-4156-cc41-9c00",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              },
+              {
+                "name": "New money but personally impoverished",
+                "id": "ce1e-2a00-85bd-98a9",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              },
+              {
+                "name": "New money with extravagant wealth",
+                "id": "3938-0b1b-b188-a2e2",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              },
+              {
+                "name": "Former Gentleman ranker",
+                "id": "dcbd-9e37-8a11-81d7",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              },
+              {
+                "name": "Military family but poverty stricken",
+                "id": "3bea-6d1e-1d85-7d16",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              },
+              {
+                "name": "Military family with wealth and influence",
+                "id": "00fb-71bb-71fc-5fcd",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              },
+              {
+                "name": "Illegitimate offspring of Nobility",
+                "id": "5c67-f743-ba1f-3d2a",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              },
+              {
+                "name": "Nobility with influence but no money",
+                "id": "778f-dc79-a271-38ff",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              },
+              {
+                "name": "Nobility with wealth and influence",
+                "id": "87ef-7703-181a-4e0c",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              },
+              {
+                "name": "Minory royalty, extravagant wealth, great influence",
+                "id": "7c38-8ff6-b1d5-9e37",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              }
+            ]
+          },
+          {
+            "name": "Personality",
+            "id": "59ce-b837-8688-dffc",
+            "collective": false,
+            "hidden": false,
+            "categoryLinks": [{"name": "New CategoryLink", "id": "04f7-732b-83a5-e4f9", "hidden": false, "primary": true, "targetId": "612b-bffa-1303-f141"}],
+            "constraints": [
+              {
+                "id": "1537-1098-aba4-c251",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Foreign Johnnies",
+                "id": "72f7-22bc-2b48-395e",
+                "collective": false,
+                "hidden": false,
+                "constraints": [
+                  {
+                    "id": "56a0-073f-aebd-2f56",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Honourable",
+                    "id": "dff0-645a-beee-149b",
+                    "collective": false,
+                    "hidden": false,
+                    "type": "upgrade",
+                    "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+                  },
+                  {
+                    "name": "Cad or Bounder",
+                    "id": "4bdd-8e83-a716-149d",
+                    "collective": false,
+                    "hidden": false,
+                    "type": "upgrade",
+                    "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+                  },
+                  {
+                    "name": "Rake",
+                    "id": "fb01-ad67-8b6d-93ea",
+                    "collective": false,
+                    "hidden": false,
+                    "type": "upgrade",
+                    "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+                  },
+                  {
+                    "name": "Rotter",
+                    "id": "16b4-2c0e-100c-6df3",
+                    "collective": false,
+                    "hidden": false,
+                    "type": "upgrade",
+                    "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+                  }
+                ]
+              },
+              {
+                "name": "Personality",
+                "id": "3cc3-3a44-7a99-50a8",
+                "collective": false,
+                "hidden": false,
+                "constraints": [
+                  {
+                    "id": "d947-340d-06d6-ee97",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Prig",
+                    "id": "969e-f4d5-5581-9924",
+                    "collective": false,
+                    "hidden": false,
+                    "type": "upgrade",
+                    "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+                  },
+                  {
+                    "name": "Rotter",
+                    "id": "cfec-f1ba-b29f-903e",
+                    "collective": false,
+                    "hidden": false,
+                    "type": "upgrade",
+                    "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+                  },
+                  {
+                    "name": "Honourable",
+                    "id": "5093-6a1d-0c86-af04",
+                    "collective": false,
+                    "hidden": false,
+                    "type": "upgrade",
+                    "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+                  },
+                  {
+                    "name": "Cad or Bounder",
+                    "id": "1d66-5cc1-3bef-4453",
+                    "collective": false,
+                    "hidden": false,
+                    "type": "upgrade",
+                    "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+                  },
+                  {
+                    "name": "Rake",
+                    "id": "2913-1b75-173d-be58",
+                    "collective": false,
+                    "hidden": false,
+                    "type": "upgrade",
+                    "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Physique",
+            "id": "ee8a-04c4-6488-3077",
+            "collective": false,
+            "hidden": false,
+            "categoryLinks": [{"name": "New CategoryLink", "id": "3513-d6fd-2d3b-7baa", "hidden": false, "primary": true, "targetId": "612b-bffa-1303-f141"}],
+            "constraints": [
+              {
+                "id": "204d-e3c1-4689-ae39",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Sickly cove",
+                "id": "46c8-1a29-9b6e-5f27",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              },
+              {
+                "name": "Diminutive Chap",
+                "id": "cb5f-2737-7354-1910",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              },
+              {
+                "name": "Average Stamp",
+                "id": "5d3d-f550-b57b-867f",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              },
+              {
+                "name": "Strapping Fellow",
+                "id": "6d59-9293-339c-0c35",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              },
+              {
+                "name": "Giant of a man",
+                "id": "1206-72fb-33d1-19d2",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              }
+            ]
+          },
+          {
+            "name": "Skills",
+            "id": "94e1-e7db-2d20-5a38",
+            "collective": false,
+            "hidden": false,
+            "categoryLinks": [{"name": "New CategoryLink", "id": "f258-3e5d-f22e-3a55", "hidden": false, "primary": true, "targetId": "612b-bffa-1303-f141"}],
+            "constraints": [
+              {
+                "id": "2e86-b1ab-f421-27dd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 6
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Flashing Blade",
+                "id": "156b-3aa4-7335-1078",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "ec2c-c979-1234-1fa0",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              },
+              {
+                "name": "View Halloo",
+                "id": "88bc-3448-b2ca-47c2",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "4a96-c474-eb86-e4f4",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              },
+              {
+                "name": "Stunning Linguist",
+                "id": "ccf0-d5ea-f0de-3448",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "f6da-0734-e01f-bb6e",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              },
+              {
+                "name": "Impressive Weapon",
+                "id": "e4a6-bf57-2cb4-430f",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "7fb2-71ef-1cf0-7aee",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              },
+              {
+                "name": "Master of Disguise",
+                "id": "cea0-07d2-ee2e-ffa3",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "e6cb-62fa-df57-9b6e",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              },
+              {
+                "name": "Sporting Life",
+                "id": "6623-f13d-043d-d99a",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "1571-d73d-28b5-6d3d",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}]
+              }
+            ]
+          },
+          {
+            "name": "Status",
+            "id": "c3ea-2da2-f793-4438",
+            "collective": false,
+            "hidden": false,
+            "categoryLinks": [{"name": "Leaders", "id": "3043-ae11-d85f-b2c9", "hidden": false, "primary": false, "targetId": "612b-bffa-1303-f141"}],
+            "constraints": [
+              {
+                "id": "38ca-ab02-1c63-1d66",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "c431-8e64-beca-081a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": 1,
+                "id": "a4a0-c5bd-d9b4-f211",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 3}]
+              },
+              {
+                "name": 2,
+                "id": "2b18-e365-7581-77b2",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 6}]
+              },
+              {
+                "name": 3,
+                "id": "8316-9c5f-597f-8598",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 9}]
+              },
+              {
+                "name": 4,
+                "id": "8c13-51e0-0008-32fd",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 12}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Artillery",
+        "id": "1431-d05d-6eba-30a2",
+        "collective": false,
+        "defaultSelectionEntryId": "a363-d712-cd14-d073",
+        "hidden": false,
+        "categoryLinks": [{"name": "New CategoryLink", "id": "6477-5829-e6c8-962f", "hidden": false, "primary": true, "targetId": "dafe-ff28-362c-9bd5"}],
+        "constraints": [
+          {
+            "id": "6d02-8d27-159e-4b33",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "4b3d-0090-15cd-aab5",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+          }
+        ],
+        "entryLinks": [
+          {"name": "Light Gun (4 pdr)", "id": "a363-d712-cd14-d073", "collective": false, "hidden": false, "targetId": "3144-02ca-6584-6710", "type": "selectionEntry"},
+          {"name": "Medium Gun (6-9 pdr)", "id": "c7b9-487b-fb44-8639", "collective": false, "hidden": false, "targetId": "77ca-8184-67fb-b689", "type": "selectionEntry"},
+          {"name": "Heavy Gun (12 pdr)", "id": "6043-d70c-0fd1-b818", "collective": false, "hidden": false, "targetId": "43b9-4819-cb0c-f0e3", "type": "selectionEntry"}
+        ]
+      }
+    ]
+  }
+}

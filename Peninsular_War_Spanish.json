@@ -1,0 +1,303 @@
+{
+  "catalogue": {
+    "name": "Peninsular War Spanish",
+    "id": "6602-2610-6667-ad8e",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "4410-0bc8-f0e3-e5a0",
+    "gameSystemRevision": 1,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "selectionEntries": [
+      {
+        "name": "Spanish Fusileros",
+        "id": "8d4c-f503-0186-3b64",
+        "collective": false,
+        "hidden": false,
+        "page": 104,
+        "publicationId": "717d-5e01-ec61-ca94",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "c275-0125-9352-1111", "hidden": false, "primary": true, "targetId": "3a23-a504-6b18-97ec"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 4}],
+        "infoLinks": [{"name": "Musket", "id": "740f-88a7-6d34-d705", "hidden": false, "targetId": "0226-5b84-157f-379c", "type": "profile"}],
+        "profiles": [
+          {
+            "name": "Spanish Fusileros",
+            "id": "ec8d-f684-1b78-6f6d",
+            "hidden": false,
+            "typeId": "b3ef-efab-f259-e80c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Formation", "$text": "Always", "typeId": "b379-f56c-8497-5a83"},
+              {"name": "First Fire", "$text": "Yes", "typeId": "27fe-009e-561f-bffb"},
+              {"name": "Controlled Volley", "$text": "First Only", "typeId": "7880-4c90-1869-6edb"},
+              {"name": "Crashing Volley", "$text": "3", "typeId": "ed41-c95d-22bb-a5cb"},
+              {"name": "Step Out", "$text": "3", "typeId": "5292-1356-4cea-f775"},
+              {"name": "Drill", "$text": "3", "typeId": "2f16-fd62-50d0-883d"},
+              {"name": "Characteristics", "typeId": "161c-3c71-89d1-8434"},
+              {"name": "Size", "$text": "8", "typeId": "dd38-a731-1e95-b17e"},
+              {"name": "Withdrawal Distance", "$text": "2\"", "typeId": "426f-3e66-d211-7603"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Spanish Granaderos",
+        "id": "9b6d-4a05-f2e6-744c",
+        "collective": false,
+        "hidden": false,
+        "page": 104,
+        "publicationId": "717d-5e01-ec61-ca94",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "db15-fabe-f59f-4384", "hidden": false, "primary": true, "targetId": "83e1-2188-7ecb-6a98"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 5}],
+        "infoLinks": [{"name": "Musket", "id": "427b-fb41-ef9a-2e5d", "hidden": false, "targetId": "0226-5b84-157f-379c", "type": "profile"}],
+        "profiles": [
+          {
+            "name": "Spanish Granaderos",
+            "id": "1c43-e352-19d1-f342",
+            "hidden": false,
+            "typeId": "b3ef-efab-f259-e80c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Formation", "$text": "Always", "typeId": "b379-f56c-8497-5a83"},
+              {"name": "First Fire", "$text": "Yes", "typeId": "27fe-009e-561f-bffb"},
+              {"name": "Controlled Volley", "$text": "First Only", "typeId": "7880-4c90-1869-6edb"},
+              {"name": "Crashing Volley", "$text": "2", "typeId": "ed41-c95d-22bb-a5cb"},
+              {"name": "Step Out", "$text": "3", "typeId": "5292-1356-4cea-f775"},
+              {"name": "Drill", "$text": "3", "typeId": "2f16-fd62-50d0-883d"},
+              {"name": "Characteristics", "typeId": "161c-3c71-89d1-8434"},
+              {"name": "Size", "$text": "8", "typeId": "dd38-a731-1e95-b17e"},
+              {"name": "Withdrawal Distance", "$text": "1\"", "typeId": "426f-3e66-d211-7603"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Spanish Cazadores",
+        "id": "5f99-f495-6d4d-4d5b",
+        "collective": false,
+        "hidden": false,
+        "page": 104,
+        "publicationId": "717d-5e01-ec61-ca94",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "9e04-75b9-847b-3032", "hidden": false, "primary": true, "targetId": "3a23-a504-6b18-97ec"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 4}],
+        "infoLinks": [{"name": "Musket", "id": "592d-5eef-ffd4-8a43", "hidden": false, "targetId": "0226-5b84-157f-379c", "type": "profile"}],
+        "profiles": [
+          {
+            "name": "Spanish Cazadores",
+            "id": "9cfa-6cd8-738f-5adb",
+            "hidden": false,
+            "typeId": "b3ef-efab-f259-e80c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Formation", "$text": "Always", "typeId": "b379-f56c-8497-5a83"},
+              {"name": "First Fire", "$text": "Yes", "typeId": "27fe-009e-561f-bffb"},
+              {"name": "Controlled Volley", "$text": "First Only", "typeId": "7880-4c90-1869-6edb"},
+              {"name": "Crashing Volley", "$text": "3", "typeId": "ed41-c95d-22bb-a5cb"},
+              {"name": "Step Out", "$text": "2", "typeId": "5292-1356-4cea-f775"},
+              {"name": "Drill", "$text": "2", "typeId": "2f16-fd62-50d0-883d"},
+              {"name": "Characteristics", "typeId": "161c-3c71-89d1-8434"},
+              {"name": "Size", "$text": "8", "typeId": "dd38-a731-1e95-b17e"},
+              {"name": "Withdrawal Distance", "$text": "2\"", "typeId": "426f-3e66-d211-7603"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Spanish Cazadores Skirmishers",
+        "id": "7bde-1c2a-719e-ef06",
+        "collective": false,
+        "hidden": false,
+        "page": 104,
+        "publicationId": "717d-5e01-ec61-ca94",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "de5e-81ec-3d6c-761a", "hidden": false, "primary": true, "targetId": "bcc2-d8d3-8872-c543"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 7}],
+        "infoLinks": [
+          {"name": "Musket", "id": "1bc4-5b2a-67b5-3bd9", "hidden": false, "targetId": "0226-5b84-157f-379c", "type": "profile"},
+          {"name": "Sharp Practice", "id": "6ef8-d632-e513-186c", "hidden": false, "targetId": "7fc9-084e-faae-e5c3", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Spanish Cazadores Skirmishers",
+            "id": "6aee-4370-6f8a-0d9c",
+            "hidden": false,
+            "typeId": "b3ef-efab-f259-e80c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Formation", "$text": "Always", "typeId": "b379-f56c-8497-5a83"},
+              {"name": "First Fire", "$text": "Yes", "typeId": "27fe-009e-561f-bffb"},
+              {"name": "Controlled Volley", "$text": "No", "typeId": "7880-4c90-1869-6edb"},
+              {"name": "Crashing Volley", "$text": "-", "typeId": "ed41-c95d-22bb-a5cb"},
+              {"name": "Step Out", "$text": "2", "typeId": "5292-1356-4cea-f775"},
+              {"name": "Drill", "$text": "-", "typeId": "2f16-fd62-50d0-883d"},
+              {"name": "Characteristics", "$text": "Sharp Practice", "typeId": "161c-3c71-89d1-8434"},
+              {"name": "Size", "$text": "6", "typeId": "dd38-a731-1e95-b17e"},
+              {"name": "Withdrawal Distance", "$text": "2\"", "typeId": "426f-3e66-d211-7603"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Spanish Foreign Regiments",
+        "id": "75e3-511d-af8b-044f",
+        "collective": false,
+        "hidden": false,
+        "page": 104,
+        "publicationId": "717d-5e01-ec61-ca94",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "3b1f-8b9d-ab1e-acff", "hidden": false, "primary": true, "targetId": "3a23-a504-6b18-97ec"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 6}],
+        "infoLinks": [
+          {"name": "Musket", "id": "5032-daba-f2be-3843", "hidden": false, "targetId": "0226-5b84-157f-379c", "type": "profile"},
+          {"name": "Sharp Practice", "id": "2052-780a-23be-743f", "hidden": false, "targetId": "7fc9-084e-faae-e5c3", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Spanish Foreign Regiments",
+            "id": "df77-7f11-e2c4-7bff",
+            "hidden": false,
+            "typeId": "b3ef-efab-f259-e80c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Formation", "$text": "Always", "typeId": "b379-f56c-8497-5a83"},
+              {"name": "First Fire", "$text": "Yes", "typeId": "27fe-009e-561f-bffb"},
+              {"name": "Controlled Volley", "$text": "First Only", "typeId": "7880-4c90-1869-6edb"},
+              {"name": "Crashing Volley", "$text": "2", "typeId": "ed41-c95d-22bb-a5cb"},
+              {"name": "Step Out", "$text": "2", "typeId": "5292-1356-4cea-f775"},
+              {"name": "Drill", "$text": "3", "typeId": "2f16-fd62-50d0-883d"},
+              {"name": "Characteristics", "$text": "Sharp Practice", "typeId": "161c-3c71-89d1-8434"},
+              {"name": "Size", "$text": "8", "typeId": "dd38-a731-1e95-b17e"},
+              {"name": "Withdrawal Distance", "$text": "2\"", "typeId": "426f-3e66-d211-7603"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Spanish Provincial Militia",
+        "id": "a65e-9a93-37b2-73fe",
+        "collective": false,
+        "hidden": false,
+        "page": 104,
+        "publicationId": "717d-5e01-ec61-ca94",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "5769-1963-a89d-8ca2", "hidden": false, "primary": true, "targetId": "42a3-0db0-975a-bc57"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 3}],
+        "infoLinks": [{"name": "Musket", "id": "a0a6-7880-4d97-aa6c", "hidden": false, "targetId": "0226-5b84-157f-379c", "type": "profile"}],
+        "profiles": [
+          {
+            "name": "Spanish Provincial Militia",
+            "id": "265b-c840-4b03-7ada",
+            "hidden": false,
+            "typeId": "b3ef-efab-f259-e80c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Formation", "$text": "No Shock", "typeId": "b379-f56c-8497-5a83"},
+              {"name": "First Fire", "$text": "Yes", "typeId": "27fe-009e-561f-bffb"},
+              {"name": "Controlled Volley", "$text": "No", "typeId": "7880-4c90-1869-6edb"},
+              {"name": "Crashing Volley", "$text": "-", "typeId": "ed41-c95d-22bb-a5cb"},
+              {"name": "Step Out", "$text": "-", "typeId": "5292-1356-4cea-f775"},
+              {"name": "Drill", "$text": "-", "typeId": "2f16-fd62-50d0-883d"},
+              {"name": "Characteristics", "typeId": "161c-3c71-89d1-8434"},
+              {"name": "Size", "$text": "10", "typeId": "dd38-a731-1e95-b17e"},
+              {"name": "Withdrawal Distance", "$text": "3\"", "typeId": "426f-3e66-d211-7603"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guerrilla Skirmishers",
+        "id": "21ba-7b49-dd55-7604",
+        "collective": false,
+        "hidden": false,
+        "page": 104,
+        "publicationId": "717d-5e01-ec61-ca94",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "b2b8-d6bd-ba37-8233", "hidden": false, "primary": true, "targetId": "0d0f-358f-351a-5088"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 5}],
+        "infoLinks": [
+          {"name": "Tactical", "id": "dd87-89bd-2fda-79f2", "hidden": false, "targetId": "3cb0-011f-c4be-4e97", "type": "rule"},
+          {"name": "Moveable Deployment Point", "id": "c474-9ae0-4732-82f7", "hidden": false, "targetId": "75e3-063f-bb31-3ea3", "type": "rule"},
+          {"name": "Sabre", "id": "9107-1397-c9ec-a687", "hidden": false, "targetId": "9c40-10a6-8344-6862", "type": "profile"}
+        ],
+        "profiles": [
+          {
+            "name": "Guerrilla Skirmishers",
+            "id": "8e44-3045-039e-7873",
+            "hidden": false,
+            "typeId": "b3ef-efab-f259-e80c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Formation", "$text": "No", "typeId": "b379-f56c-8497-5a83"},
+              {"name": "First Fire", "$text": "Yes", "typeId": "27fe-009e-561f-bffb"},
+              {"name": "Controlled Volley", "$text": "No", "typeId": "7880-4c90-1869-6edb"},
+              {"name": "Crashing Volley", "$text": "-", "typeId": "ed41-c95d-22bb-a5cb"},
+              {"name": "Step Out", "$text": "1", "typeId": "5292-1356-4cea-f775"},
+              {"name": "Drill", "$text": "-", "typeId": "2f16-fd62-50d0-883d"},
+              {"name": "Characteristics", "$text": "Tactical, Moveable DP", "typeId": "161c-3c71-89d1-8434"},
+              {"name": "Size", "$text": "6", "typeId": "dd38-a731-1e95-b17e"},
+              {"name": "Withdrawal Distance", "$text": "2\"", "typeId": "426f-3e66-d211-7603"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Spanish Artillery",
+        "id": "2073-65b8-1196-1348",
+        "collective": false,
+        "hidden": false,
+        "page": 104,
+        "publicationId": "717d-5e01-ec61-ca94",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "8fbd-d06a-bf02-002c", "hidden": false, "primary": true, "targetId": "dafe-ff28-362c-9bd5"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 5}],
+        "entryLinks": [{"name": "Artillery", "id": "ccbb-5067-e693-8c3e", "collective": false, "hidden": false, "targetId": "1431-d05d-6eba-30a2", "type": "selectionEntryGroup"}],
+        "profiles": [
+          {
+            "name": "Spanish Artillery",
+            "id": "ec2a-8605-c152-e4f0",
+            "hidden": false,
+            "typeId": "b3ef-efab-f259-e80c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Formation", "$text": "No", "typeId": "b379-f56c-8497-5a83"},
+              {"name": "First Fire", "$text": "Yes", "typeId": "27fe-009e-561f-bffb"},
+              {"name": "Controlled Volley", "$text": "First Only", "typeId": "7880-4c90-1869-6edb"},
+              {"name": "Crashing Volley", "$text": "-", "typeId": "ed41-c95d-22bb-a5cb"},
+              {"name": "Step Out", "$text": "-", "typeId": "5292-1356-4cea-f775"},
+              {"name": "Drill", "$text": "-", "typeId": "2f16-fd62-50d0-883d"},
+              {"name": "Characteristics", "typeId": "161c-3c71-89d1-8434"},
+              {"name": "Size", "$text": "5", "typeId": "dd38-a731-1e95-b17e"},
+              {"name": "Withdrawal Distance", "$text": "-", "typeId": "426f-3e66-d211-7603"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Leader",
+        "id": "ed90-a302-0a5c-93e3",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "1958-815a-ef89-13d7", "hidden": false, "primary": true, "targetId": "612b-bffa-1303-f141"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}],
+        "entryLinks": [{"name": "Leader", "id": "cff9-bb55-50bb-12a1", "collective": false, "hidden": false, "targetId": "c30a-e677-a3c5-4987", "type": "selectionEntryGroup"}]
+      },
+      {
+        "name": "Support Options",
+        "id": "ad44-2a97-7ac5-aa13",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "359e-f622-65a1-30e9", "hidden": false, "primary": true, "targetId": "a645-8a61-0128-7539"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}],
+        "entryLinks": [
+          {"name": "Support Options", "id": "ca5c-f41e-fa8e-8707", "collective": false, "hidden": false, "targetId": "f9fa-f4cd-e965-48ea", "type": "selectionEntryGroup"}
+        ]
+      }
+    ]
+  }
+}
