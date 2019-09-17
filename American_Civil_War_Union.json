@@ -1,0 +1,329 @@
+{
+  "catalogue": {
+    "name": "American Civil War Union",
+    "id": "c1ef-4886-23f3-dceb",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "4410-0bc8-f0e3-e5a0",
+    "gameSystemRevision": 1,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "selectionEntries": [
+      {
+        "name": "Union Infantry, 1861 to 1863",
+        "id": "e58a-6f9d-3619-7702",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 111,
+        "publicationId": "717d-5e01-ec61-ca94",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "a9dd-bac1-591a-c4af", "hidden": false, "primary": true, "targetId": "3a23-a504-6b18-97ec"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 6}],
+        "infoLinks": [
+          {"name": "Surly", "id": "6b7e-964b-7053-bab0", "hidden": false, "targetId": "dc9b-9c55-57fd-5f59", "type": "rule"},
+          {"name": "Rifled Musket (Minie)", "id": "c8eb-6b4e-1ed5-edea", "hidden": false, "targetId": "0ef4-5389-3afc-9a5d", "type": "profile"}
+        ],
+        "profiles": [
+          {
+            "name": "Union Infantry, 1861 to 1863",
+            "id": "2e1e-3fda-bbf3-493b",
+            "hidden": false,
+            "typeId": "b3ef-efab-f259-e80c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Formation", "$text": "Always", "typeId": "b379-f56c-8497-5a83"},
+              {"name": "First Fire", "$text": "Yes", "typeId": "27fe-009e-561f-bffb"},
+              {"name": "Controlled Volley", "$text": "First Only", "typeId": "7880-4c90-1869-6edb"},
+              {"name": "Crashing Volley", "$text": "3", "typeId": "ed41-c95d-22bb-a5cb"},
+              {"name": "Step Out", "$text": "2", "typeId": "5292-1356-4cea-f775"},
+              {"name": "Drill", "$text": "3", "typeId": "2f16-fd62-50d0-883d"},
+              {"name": "Characteristics", "$text": "Surly", "typeId": "161c-3c71-89d1-8434"},
+              {"name": "Size", "$text": "8", "typeId": "dd38-a731-1e95-b17e"},
+              {"name": "Withdrawal Distance", "$text": "2\"", "typeId": "426f-3e66-d211-7603"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Union Infantry, 1864 to 1865",
+        "id": "9605-0752-235a-8fed",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 111,
+        "publicationId": "717d-5e01-ec61-ca94",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "fb37-d5e4-7f3c-442a", "hidden": false, "primary": true, "targetId": "83e1-2188-7ecb-6a98"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 9}],
+        "infoLinks": [
+          {"name": "Stubborn", "id": "c7fe-dc1e-842a-881c", "hidden": false, "targetId": "d681-3b7a-7764-7bed", "type": "rule"},
+          {"name": "Rifled Musket (Minie)", "id": "8d08-8171-8b17-d4ae", "hidden": false, "targetId": "0ef4-5389-3afc-9a5d", "type": "profile"}
+        ],
+        "profiles": [
+          {
+            "name": "Union Infantry, 1864 to 1865",
+            "id": "470c-7f6f-7f17-404b",
+            "hidden": false,
+            "typeId": "b3ef-efab-f259-e80c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Formation", "$text": "Always", "typeId": "b379-f56c-8497-5a83"},
+              {"name": "First Fire", "$text": "Yes", "typeId": "27fe-009e-561f-bffb"},
+              {"name": "Controlled Volley", "$text": "Yes", "typeId": "7880-4c90-1869-6edb"},
+              {"name": "Crashing Volley", "$text": "2", "typeId": "ed41-c95d-22bb-a5cb"},
+              {"name": "Step Out", "$text": "2", "typeId": "5292-1356-4cea-f775"},
+              {"name": "Drill", "$text": "2", "typeId": "2f16-fd62-50d0-883d"},
+              {"name": "Characteristics", "$text": "Stubborn", "typeId": "161c-3c71-89d1-8434"},
+              {"name": "Size", "$text": "8", "typeId": "dd38-a731-1e95-b17e"},
+              {"name": "Withdrawal Distance", "$text": "1\"", "typeId": "426f-3e66-d211-7603"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Union Skirmishers",
+        "id": "5881-443d-5564-3112",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 111,
+        "publicationId": "717d-5e01-ec61-ca94",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "3bf5-dc76-453e-84f0", "hidden": false, "primary": true, "targetId": "bcc2-d8d3-8872-c543"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 11}],
+        "infoLinks": [
+          {"name": "Rifled Musket (Minie)", "id": "700c-1a9b-689b-8c7e", "hidden": false, "targetId": "0ef4-5389-3afc-9a5d", "type": "profile"},
+          {"name": "Sharp Practice", "id": "e26e-6e0c-d0e6-ed9a", "hidden": false, "targetId": "7fc9-084e-faae-e5c3", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Union Skirmishers",
+            "id": "a775-6a34-3721-79df",
+            "hidden": false,
+            "typeId": "b3ef-efab-f259-e80c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Formation", "$text": "Always", "typeId": "b379-f56c-8497-5a83"},
+              {"name": "First Fire", "$text": "Yes", "typeId": "27fe-009e-561f-bffb"},
+              {"name": "Controlled Volley", "$text": "No", "typeId": "7880-4c90-1869-6edb"},
+              {"name": "Crashing Volley", "$text": "-", "typeId": "ed41-c95d-22bb-a5cb"},
+              {"name": "Step Out", "$text": "2", "typeId": "5292-1356-4cea-f775"},
+              {"name": "Drill", "$text": "-", "typeId": "2f16-fd62-50d0-883d"},
+              {"name": "Characteristics", "$text": "Sharp Practice", "typeId": "161c-3c71-89d1-8434"},
+              {"name": "Size", "$text": "6", "typeId": "dd38-a731-1e95-b17e"},
+              {"name": "Withdrawal Distance", "$text": "2\"", "typeId": "426f-3e66-d211-7603"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Union Cavalry, 1861-1862",
+        "id": "8b5a-fd10-4a5c-e7dd",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 111,
+        "publicationId": "717d-5e01-ec61-ca94",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "c10f-a313-4e05-67e0", "hidden": false, "primary": true, "targetId": "b95b-3f7a-d5fb-bbea"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 7}],
+        "infoLinks": [{"name": "Rifled Carbine (Minie)", "id": "4f74-6b82-bafe-78e4", "hidden": false, "targetId": "3906-5824-14aa-89ac", "type": "profile"}],
+        "profiles": [
+          {
+            "name": "Union Cavalry, 1861-1862",
+            "id": "885c-35b1-0d19-dafb",
+            "hidden": false,
+            "typeId": "b3ef-efab-f259-e80c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Formation", "$text": "Always", "typeId": "b379-f56c-8497-5a83"},
+              {"name": "First Fire", "$text": "Yes", "typeId": "27fe-009e-561f-bffb"},
+              {"name": "Controlled Volley", "$text": "No", "typeId": "7880-4c90-1869-6edb"},
+              {"name": "Crashing Volley", "$text": "-", "typeId": "ed41-c95d-22bb-a5cb"},
+              {"name": "Step Out", "$text": "2", "typeId": "5292-1356-4cea-f775"},
+              {"name": "Drill", "$text": "-", "typeId": "2f16-fd62-50d0-883d"},
+              {"name": "Characteristics", "typeId": "161c-3c71-89d1-8434"},
+              {"name": "Size", "$text": "8", "typeId": "dd38-a731-1e95-b17e"},
+              {"name": "Withdrawal Distance", "$text": "1\"", "typeId": "426f-3e66-d211-7603"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Union Cavalry, 1863-1865",
+        "id": "dd92-9f55-6507-79b3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 111,
+        "publicationId": "717d-5e01-ec61-ca94",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "d68d-52f5-418c-c153", "hidden": false, "primary": true, "targetId": "b95b-3f7a-d5fb-bbea"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 13}],
+        "infoLinks": [{"name": "Breech Loading Carbine", "id": "c3b6-1baa-5e2f-629f", "hidden": false, "targetId": "8c57-580a-f241-10ff", "type": "profile"}],
+        "profiles": [
+          {
+            "name": "Union Cavalry, 1863-1865",
+            "id": "f4f6-1eb9-eb30-76d2",
+            "hidden": false,
+            "typeId": "b3ef-efab-f259-e80c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Formation", "$text": "Always", "typeId": "b379-f56c-8497-5a83"},
+              {"name": "First Fire", "$text": "Yes", "typeId": "27fe-009e-561f-bffb"},
+              {"name": "Controlled Volley", "$text": "No", "typeId": "7880-4c90-1869-6edb"},
+              {"name": "Crashing Volley", "$text": "3", "typeId": "ed41-c95d-22bb-a5cb"},
+              {"name": "Step Out", "$text": "2", "typeId": "5292-1356-4cea-f775"},
+              {"name": "Drill", "$text": "-", "typeId": "2f16-fd62-50d0-883d"},
+              {"name": "Characteristics", "typeId": "161c-3c71-89d1-8434"},
+              {"name": "Size", "$text": "8", "typeId": "dd38-a731-1e95-b17e"},
+              {"name": "Withdrawal Distance", "$text": "1\"", "typeId": "426f-3e66-d211-7603"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Union Artillery",
+        "id": "dc62-de2e-c3ce-7748",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 111,
+        "publicationId": "717d-5e01-ec61-ca94",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "650d-49b8-f050-bbb0", "hidden": false, "primary": true, "targetId": "dafe-ff28-362c-9bd5"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 6}],
+        "profiles": [
+          {
+            "name": "Union Artillery",
+            "id": "fb1f-ae20-2f99-e0e1",
+            "hidden": false,
+            "typeId": "b3ef-efab-f259-e80c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Formation", "$text": "No", "typeId": "b379-f56c-8497-5a83"},
+              {"name": "First Fire", "$text": "Yes", "typeId": "27fe-009e-561f-bffb"},
+              {"name": "Controlled Volley", "$text": "Yes", "typeId": "7880-4c90-1869-6edb"},
+              {"name": "Crashing Volley", "$text": "-", "typeId": "ed41-c95d-22bb-a5cb"},
+              {"name": "Step Out", "$text": "2", "typeId": "5292-1356-4cea-f775"},
+              {"name": "Drill", "$text": "3", "typeId": "2f16-fd62-50d0-883d"},
+              {"name": "Characteristics", "typeId": "161c-3c71-89d1-8434"},
+              {"name": "Size", "$text": "5", "typeId": "dd38-a731-1e95-b17e"},
+              {"name": "Withdrawal Distance", "$text": "-", "typeId": "426f-3e66-d211-7603"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Gun",
+            "id": "4849-c39c-0696-527f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "717d-5e01-ec61-ca94",
+            "constraints": [
+              {
+                "id": "7068-cfcf-4b1e-8498",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "d1da-a05a-d574-babd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Light",
+                "id": "648b-f174-acf9-7621",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}],
+                "infoLinks": [{"name": "Light Gun (4 pdr)", "id": "3372-c699-fbe5-dc59", "hidden": false, "targetId": "05c9-a8e2-5d94-694f", "type": "profile"}]
+              },
+              {
+                "name": "Medium",
+                "id": "d5ec-4720-aa9d-e9e1",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 1}],
+                "infoLinks": [{"name": "Medium Gun (6-9 pdr)", "id": "8841-a761-3859-dc41", "hidden": false, "targetId": "4307-f19e-8d84-82bc", "type": "profile"}]
+              },
+              {
+                "name": "Heavy",
+                "id": "60fe-0ba0-7010-ad28",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 3}],
+                "infoLinks": [{"name": "Heavy Gun", "id": "8f30-fef2-fc56-43ce", "hidden": false, "targetId": "bc04-6c02-42d6-5b79", "type": "profile"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Leader",
+        "id": "f069-639d-953a-3c51",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "4a02-588f-b2ef-1563", "hidden": false, "primary": true, "targetId": "612b-bffa-1303-f141"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "Leader",
+            "id": "84c9-48c8-b0f6-c277",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "c30a-e677-a3c5-4987",
+            "type": "selectionEntryGroup"
+          }
+        ]
+      },
+      {
+        "name": "Support Options",
+        "id": "7a5f-5059-07f7-df24",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "6095-725c-a0b1-c351", "hidden": false, "primary": true, "targetId": "a645-8a61-0128-7539"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "Support Options",
+            "id": "2492-97f6-0ba5-2c01",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f9fa-f4cd-e965-48ea",
+            "type": "selectionEntryGroup"
+          }
+        ]
+      }
+    ]
+  }
+}
