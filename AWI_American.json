@@ -1,0 +1,545 @@
+{
+  "catalogue": {
+    "name": "AWI American",
+    "id": "098f-3cde-01fe-c3db",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "4410-0bc8-f0e3-e5a0",
+    "gameSystemRevision": 1,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "selectionEntries": [
+      {
+        "name": "Minutemen 1775",
+        "id": "0148-bc68-eaaa-8a01",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 96,
+        "publicationId": "717d-5e01-ec61-ca94",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "0628-5966-3e59-36e6", "hidden": false, "primary": true, "targetId": "42a3-0db0-975a-bc57"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 2}],
+        "infoLinks": [
+          {"name": "Musket", "id": "6c4d-071d-f696-886d", "hidden": false, "targetId": "0226-5b84-157f-379c", "type": "profile"},
+          {"name": "Poor Shots", "id": "ff7e-3fb1-f009-90e9", "hidden": false, "targetId": "1beb-f9e3-e263-7f36", "type": "rule"},
+          {"name": "Prominent Leader", "id": "4f8d-0eee-ccf7-a2f8", "hidden": false, "targetId": "fdd4-6315-5ca0-97d4", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Minutemen 1775",
+            "id": "301a-b221-5642-5da0",
+            "hidden": false,
+            "typeId": "b3ef-efab-f259-e80c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Formation", "$text": "No Shock", "typeId": "b379-f56c-8497-5a83"},
+              {"name": "First Fire", "$text": "No", "typeId": "27fe-009e-561f-bffb"},
+              {"name": "Controlled Volley", "$text": "No", "typeId": "7880-4c90-1869-6edb"},
+              {"name": "Crashing Volley", "$text": "-", "typeId": "ed41-c95d-22bb-a5cb"},
+              {"name": "Step Out", "$text": "-", "typeId": "5292-1356-4cea-f775"},
+              {"name": "Drill", "$text": "-", "typeId": "2f16-fd62-50d0-883d"},
+              {"name": "Characteristics", "$text": "Poor Shots, Prominent Leader", "typeId": "161c-3c71-89d1-8434"},
+              {"name": "Size", "$text": "10", "typeId": "dd38-a731-1e95-b17e"},
+              {"name": "Withdrawal Distance", "$text": "3\"", "typeId": "426f-3e66-d211-7603"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "State Line Troops to 1777",
+        "id": "4a47-ff6e-24cb-2023",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 96,
+        "publicationId": "717d-5e01-ec61-ca94",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "e9c2-ff1f-8bf4-29cd", "hidden": false, "primary": true, "targetId": "3a23-a504-6b18-97ec"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 3}],
+        "infoLinks": [{"name": "Musket", "id": "8710-50f4-b9a3-da99", "hidden": false, "targetId": "0226-5b84-157f-379c", "type": "profile"}],
+        "profiles": [
+          {
+            "name": "State Line Troops to 1777",
+            "id": "7e91-565c-fca2-4c46",
+            "hidden": false,
+            "typeId": "b3ef-efab-f259-e80c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Formation", "$text": "No Shock", "typeId": "b379-f56c-8497-5a83"},
+              {"name": "First Fire", "$text": "Yes", "typeId": "27fe-009e-561f-bffb"},
+              {"name": "Controlled Volley", "$text": "No", "typeId": "7880-4c90-1869-6edb"},
+              {"name": "Crashing Volley", "$text": "3", "typeId": "ed41-c95d-22bb-a5cb"},
+              {"name": "Step Out", "$text": "3", "typeId": "5292-1356-4cea-f775"},
+              {"name": "Drill", "$text": "-", "typeId": "2f16-fd62-50d0-883d"},
+              {"name": "Characteristics", "typeId": "161c-3c71-89d1-8434"},
+              {"name": "Size", "$text": "8", "typeId": "dd38-a731-1e95-b17e"},
+              {"name": "Withdrawal Distance", "$text": "2\"", "typeId": "426f-3e66-d211-7603"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rebel Militia to 1777",
+        "id": "8eb3-efa2-25c1-3e6f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 96,
+        "publicationId": "717d-5e01-ec61-ca94",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "944e-8413-53d9-3ff3", "hidden": false, "primary": true, "targetId": "42a3-0db0-975a-bc57"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 4}],
+        "infoLinks": [
+          {"name": "Musket", "id": "c499-0512-1e46-9084", "hidden": false, "targetId": "0226-5b84-157f-379c", "type": "profile"},
+          {"name": "Hearth & Home", "id": "8cf1-3bf4-91db-3c13", "hidden": false, "targetId": "6e55-5bb8-087b-5967", "type": "rule"},
+          {"name": "Sharp Practice", "id": "c154-57be-78bd-dd52", "hidden": false, "targetId": "7fc9-084e-faae-e5c3", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Rebel Militia to 1777",
+            "id": "15ef-c7f9-e715-4b36",
+            "hidden": false,
+            "typeId": "b3ef-efab-f259-e80c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Formation", "$text": "No Shock", "typeId": "b379-f56c-8497-5a83"},
+              {"name": "First Fire", "$text": "Yes", "typeId": "27fe-009e-561f-bffb"},
+              {"name": "Controlled Volley", "$text": "No", "typeId": "7880-4c90-1869-6edb"},
+              {"name": "Crashing Volley", "$text": "3", "typeId": "ed41-c95d-22bb-a5cb"},
+              {"name": "Step Out", "$text": "-", "typeId": "5292-1356-4cea-f775"},
+              {"name": "Drill", "$text": "-", "typeId": "2f16-fd62-50d0-883d"},
+              {"name": "Characteristics", "$text": "Sharp Practice, Hearth & Home", "typeId": "161c-3c71-89d1-8434"},
+              {"name": "Size", "$text": "10", "typeId": "dd38-a731-1e95-b17e"},
+              {"name": "Withdrawal Distance", "$text": "3\"", "typeId": "426f-3e66-d211-7603"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Continental Line to 1777",
+        "id": "624f-811b-b140-a9a3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 96,
+        "publicationId": "717d-5e01-ec61-ca94",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "72c5-de96-5298-a9e5", "hidden": false, "primary": true, "targetId": "3a23-a504-6b18-97ec"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 4}],
+        "infoLinks": [
+          {"name": "Musket", "id": "699a-53dd-1621-3687", "hidden": false, "targetId": "0226-5b84-157f-379c", "type": "profile"},
+          {"name": "Sharp Practice", "id": "ac55-ee8c-857a-a2e7", "hidden": false, "targetId": "7fc9-084e-faae-e5c3", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Continental Line to 1777",
+            "id": "4700-54d9-7a29-cfb8",
+            "hidden": false,
+            "typeId": "b3ef-efab-f259-e80c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Formation", "$text": "No Shock", "typeId": "b379-f56c-8497-5a83"},
+              {"name": "First Fire", "$text": "Yes", "typeId": "27fe-009e-561f-bffb"},
+              {"name": "Controlled Volley", "$text": "First Only", "typeId": "7880-4c90-1869-6edb"},
+              {"name": "Crashing Volley", "$text": "-", "typeId": "ed41-c95d-22bb-a5cb"},
+              {"name": "Step Out", "$text": "2", "typeId": "5292-1356-4cea-f775"},
+              {"name": "Drill", "$text": "-", "typeId": "2f16-fd62-50d0-883d"},
+              {"name": "Characteristics", "$text": "Sharp Practice", "typeId": "161c-3c71-89d1-8434"},
+              {"name": "Size", "$text": "8", "typeId": "dd38-a731-1e95-b17e"},
+              {"name": "Withdrawal Distance", "$text": "2\"", "typeId": "426f-3e66-d211-7603"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "State Line, 1778 onwards",
+        "id": "5e60-12b2-4813-fd0d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 96,
+        "publicationId": "717d-5e01-ec61-ca94",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "cefe-a18a-6214-3d0d", "hidden": false, "primary": true, "targetId": "3a23-a504-6b18-97ec"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 3}],
+        "infoLinks": [
+          {"name": "Musket", "id": "087c-e656-4dd2-634c", "hidden": false, "targetId": "0226-5b84-157f-379c", "type": "profile"},
+          {"name": "Hearth & Home", "id": "d875-ae4f-18c7-0ecc", "hidden": false, "targetId": "6e55-5bb8-087b-5967", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "State Line, 1778 onwards",
+            "id": "f2b3-b792-276e-c583",
+            "hidden": false,
+            "typeId": "b3ef-efab-f259-e80c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Formation", "$text": "No Shock", "typeId": "b379-f56c-8497-5a83"},
+              {"name": "First Fire", "$text": "Yes", "typeId": "27fe-009e-561f-bffb"},
+              {"name": "Controlled Volley", "$text": "First Only", "typeId": "7880-4c90-1869-6edb"},
+              {"name": "Crashing Volley", "$text": "3", "typeId": "ed41-c95d-22bb-a5cb"},
+              {"name": "Step Out", "$text": "3", "typeId": "5292-1356-4cea-f775"},
+              {"name": "Drill", "$text": "-", "typeId": "2f16-fd62-50d0-883d"},
+              {"name": "Characteristics", "$text": "Hearth & Home", "typeId": "161c-3c71-89d1-8434"},
+              {"name": "Size", "$text": "8", "typeId": "dd38-a731-1e95-b17e"},
+              {"name": "Withdrawal Distance", "$text": "2\"", "typeId": "426f-3e66-d211-7603"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rebel Militia, 1778 onwards",
+        "id": "1061-90f0-148c-9ea3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 96,
+        "publicationId": "717d-5e01-ec61-ca94",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "e478-b363-f06e-2766", "hidden": false, "primary": true, "targetId": "42a3-0db0-975a-bc57"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 3}],
+        "infoLinks": [
+          {"name": "Musket", "id": "6e3d-5ef1-4d52-0650", "hidden": false, "targetId": "0226-5b84-157f-379c", "type": "profile"},
+          {"name": "Hearth & Home", "id": "5ae2-a26a-4ad7-6e56", "hidden": false, "targetId": "6e55-5bb8-087b-5967", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Rebel Militia, 1778 onwards",
+            "id": "7050-867f-16de-e61f",
+            "hidden": false,
+            "typeId": "b3ef-efab-f259-e80c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Formation", "$text": "No Shock", "typeId": "b379-f56c-8497-5a83"},
+              {"name": "First Fire", "$text": "Yes", "typeId": "27fe-009e-561f-bffb"},
+              {"name": "Controlled Volley", "$text": "First Only", "typeId": "7880-4c90-1869-6edb"},
+              {"name": "Crashing Volley", "$text": "3", "typeId": "ed41-c95d-22bb-a5cb"},
+              {"name": "Step Out", "$text": "2", "typeId": "5292-1356-4cea-f775"},
+              {"name": "Drill", "$text": "-", "typeId": "2f16-fd62-50d0-883d"},
+              {"name": "Characteristics", "$text": "Hearth & Home", "typeId": "161c-3c71-89d1-8434"},
+              {"name": "Size", "$text": "10", "typeId": "dd38-a731-1e95-b17e"},
+              {"name": "Withdrawal Distance", "$text": "3\"", "typeId": "426f-3e66-d211-7603"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Continental Line, 1778 onwards",
+        "id": "7f48-099e-573a-7c10",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 96,
+        "publicationId": "717d-5e01-ec61-ca94",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "c11e-61b1-b32f-93c6", "hidden": false, "primary": true, "targetId": "83e1-2188-7ecb-6a98"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 6}],
+        "infoLinks": [
+          {"name": "Musket", "id": "81d6-1f7d-fdfe-2efc", "hidden": false, "targetId": "0226-5b84-157f-379c", "type": "profile"},
+          {"name": "Sharp Practice", "id": "8f15-08a1-7a43-853b", "hidden": false, "targetId": "7fc9-084e-faae-e5c3", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Continental Line, 1778 onwards",
+            "id": "9237-7574-c507-943e",
+            "hidden": false,
+            "typeId": "b3ef-efab-f259-e80c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Formation", "$text": "Always", "typeId": "b379-f56c-8497-5a83"},
+              {"name": "First Fire", "$text": "Yes", "typeId": "27fe-009e-561f-bffb"},
+              {"name": "Controlled Volley", "$text": "Yes", "typeId": "7880-4c90-1869-6edb"},
+              {"name": "Crashing Volley", "$text": "2", "typeId": "ed41-c95d-22bb-a5cb"},
+              {"name": "Step Out", "$text": "2", "typeId": "5292-1356-4cea-f775"},
+              {"name": "Drill", "$text": "2", "typeId": "2f16-fd62-50d0-883d"},
+              {"name": "Characteristics", "$text": "Sharp Practice", "typeId": "161c-3c71-89d1-8434"},
+              {"name": "Size", "$text": "8", "typeId": "dd38-a731-1e95-b17e"},
+              {"name": "Withdrawal Distance", "$text": "1\"", "typeId": "426f-3e66-d211-7603"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Continental Light Infantry Skirmishers",
+        "id": "375c-691d-8623-a860",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 97,
+        "publicationId": "717d-5e01-ec61-ca94",
+        "type": "unit",
+        "categoryLinks": [{"name": "Light Infantry", "id": "04e1-0e5c-8a53-b540", "hidden": false, "primary": true, "targetId": "802a-f3d2-7bfd-d7d8"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 9}],
+        "infoLinks": [
+          {"name": "Rifle", "id": "6bed-1713-7efc-e1c2", "hidden": false, "targetId": "e556-1efd-a166-5c09", "type": "profile"},
+          {"name": "Sharp Practice", "id": "8a0b-3898-324a-6a3d", "hidden": false, "targetId": "7fc9-084e-faae-e5c3", "type": "rule"},
+          {"name": "Aggressive", "id": "f572-c937-b15d-c2c6", "hidden": false, "targetId": "3768-904b-637a-dffd", "type": "rule"},
+          {"name": "Tomahawks", "id": "616e-e3eb-4f0a-4325", "hidden": false, "targetId": "aaf0-ea31-abe9-6385", "type": "rule"},
+          {"name": "Moveable Deployment Point", "id": "9562-f9d7-2c25-baea", "hidden": false, "targetId": "75e3-063f-bb31-3ea3", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Continental Light Infantry Skirmishers",
+            "id": "722a-f70e-65e2-c440",
+            "hidden": false,
+            "typeId": "b3ef-efab-f259-e80c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Formation", "$text": "Always", "typeId": "b379-f56c-8497-5a83"},
+              {"name": "First Fire", "$text": "Yes", "typeId": "27fe-009e-561f-bffb"},
+              {"name": "Controlled Volley", "$text": "No", "typeId": "7880-4c90-1869-6edb"},
+              {"name": "Crashing Volley", "$text": "-", "typeId": "ed41-c95d-22bb-a5cb"},
+              {"name": "Step Out", "$text": "2", "typeId": "5292-1356-4cea-f775"},
+              {"name": "Drill", "$text": "-", "typeId": "2f16-fd62-50d0-883d"},
+              {"name": "Characteristics", "$text": "Sharp Practice, Aggressive, Tomahawks, Moveable DP", "typeId": "161c-3c71-89d1-8434"},
+              {"name": "Size", "$text": "6", "typeId": "dd38-a731-1e95-b17e"},
+              {"name": "Withdrawal Distance", "$text": "1\"", "typeId": "426f-3e66-d211-7603"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rebel Militia Skirmishers",
+        "id": "d704-3455-6036-8dca",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 97,
+        "publicationId": "717d-5e01-ec61-ca94",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "cf7c-a5e5-3f28-5b00", "hidden": false, "primary": true, "targetId": "0d0f-358f-351a-5088"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 5}],
+        "infoLinks": [
+          {"name": "Musket", "id": "b4eb-4fee-1809-70bd", "hidden": false, "targetId": "0226-5b84-157f-379c", "type": "profile"},
+          {"name": "No Bayonets", "id": "50d9-0569-b0bf-e99b", "hidden": false, "targetId": "ba53-b155-3f31-f57c", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Rebel Militia Skirmishers",
+            "id": "0412-a389-8b37-d266",
+            "hidden": false,
+            "typeId": "b3ef-efab-f259-e80c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Formation", "$text": "No", "typeId": "b379-f56c-8497-5a83"},
+              {"name": "First Fire", "$text": "Yes", "typeId": "27fe-009e-561f-bffb"},
+              {"name": "Controlled Volley", "$text": "No", "typeId": "7880-4c90-1869-6edb"},
+              {"name": "Crashing Volley", "$text": "-", "typeId": "ed41-c95d-22bb-a5cb"},
+              {"name": "Step Out", "$text": "3", "typeId": "5292-1356-4cea-f775"},
+              {"name": "Drill", "$text": "-", "typeId": "2f16-fd62-50d0-883d"},
+              {"name": "Characteristics", "$text": "No Bayonet", "typeId": "161c-3c71-89d1-8434"},
+              {"name": "Size", "$text": "6", "typeId": "dd38-a731-1e95-b17e"},
+              {"name": "Withdrawal Distance", "$text": "3\"", "typeId": "426f-3e66-d211-7603"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Frontiersmen Skirmishers",
+        "id": "cca4-0744-3790-a428",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 97,
+        "publicationId": "717d-5e01-ec61-ca94",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "0be9-4198-2966-4491", "hidden": false, "primary": true, "targetId": "bcc2-d8d3-8872-c543"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 7}],
+        "infoLinks": [
+          {"name": "Musket", "id": "6781-f161-b7cb-4927", "hidden": false, "targetId": "0226-5b84-157f-379c", "type": "profile"},
+          {"name": "Good Shots", "id": "dac6-7e69-0cef-4157", "hidden": false, "targetId": "719b-410b-e9b1-5b42", "type": "rule"},
+          {"name": "Aggressive", "id": "fdfa-34e2-fc6a-3324", "hidden": false, "targetId": "3768-904b-637a-dffd", "type": "rule"},
+          {"name": "Tomahawks", "id": "ec63-0866-c716-a2be", "hidden": false, "targetId": "aaf0-ea31-abe9-6385", "type": "rule"},
+          {"name": "Tactical", "id": "7cd2-09cd-e000-694d", "hidden": false, "targetId": "3cb0-011f-c4be-4e97", "type": "rule"},
+          {"name": "Moveable Deployment Point", "id": "ac6f-dd42-0d4a-3f19", "hidden": false, "targetId": "75e3-063f-bb31-3ea3", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Frontiersmen Skirmishers",
+            "id": "3a27-b1e4-cce0-fd21",
+            "hidden": false,
+            "typeId": "b3ef-efab-f259-e80c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Formation", "$text": "No", "typeId": "b379-f56c-8497-5a83"},
+              {"name": "First Fire", "$text": "Yes", "typeId": "27fe-009e-561f-bffb"},
+              {"name": "Controlled Volley", "$text": "No", "typeId": "7880-4c90-1869-6edb"},
+              {"name": "Crashing Volley", "$text": "-", "typeId": "ed41-c95d-22bb-a5cb"},
+              {"name": "Step Out", "$text": "3", "typeId": "5292-1356-4cea-f775"},
+              {"name": "Drill", "$text": "-", "typeId": "2f16-fd62-50d0-883d"},
+              {"name": "Characteristics", "$text": "Good shots, Aggressive, Tomahawks, Tactical, Moveable DP", "typeId": "161c-3c71-89d1-8434"},
+              {"name": "Size", "$text": "6", "typeId": "dd38-a731-1e95-b17e"},
+              {"name": "Withdrawal Distance", "$text": "2\"", "typeId": "426f-3e66-d211-7603"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Continental Light Dragoons",
+        "id": "0aa9-a60c-5ed8-9bf6",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 97,
+        "publicationId": "717d-5e01-ec61-ca94",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "2e10-ea05-c732-51e1", "hidden": false, "primary": true, "targetId": "5c1c-87dd-2fb9-6089"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 7}],
+        "infoLinks": [
+          {"name": "Musket", "id": "733b-b06b-e31e-104e", "hidden": false, "targetId": "0226-5b84-157f-379c", "type": "profile"},
+          {"name": "Tally Ho!", "id": "e92d-e8bc-231a-1581", "hidden": false, "targetId": "d8bb-78dc-6083-d86b", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Continental Light Dragoons",
+            "id": "5278-5fd9-a026-b5d7",
+            "hidden": false,
+            "typeId": "b3ef-efab-f259-e80c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Formation", "$text": "Always", "typeId": "b379-f56c-8497-5a83"},
+              {"name": "First Fire", "$text": "No", "typeId": "27fe-009e-561f-bffb"},
+              {"name": "Controlled Volley", "$text": "-", "typeId": "7880-4c90-1869-6edb"},
+              {"name": "Crashing Volley", "$text": "-", "typeId": "ed41-c95d-22bb-a5cb"},
+              {"name": "Step Out", "$text": "3", "typeId": "5292-1356-4cea-f775"},
+              {"name": "Drill", "$text": "-", "typeId": "2f16-fd62-50d0-883d"},
+              {"name": "Characteristics", "$text": "Tally Ho!", "typeId": "161c-3c71-89d1-8434"},
+              {"name": "Size", "$text": "8", "typeId": "dd38-a731-1e95-b17e"},
+              {"name": "Withdrawal Distance", "$text": "1\"", "typeId": "426f-3e66-d211-7603"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rebel Artillery to 1778",
+        "id": "1c57-97f9-fec6-ea52",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 97,
+        "publicationId": "717d-5e01-ec61-ca94",
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "dac5-f2b6-11be-a5e3", "hidden": false, "primary": true, "targetId": "dafe-ff28-362c-9bd5"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "Artillery",
+            "id": "24d2-283e-4dba-1d29",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "1431-d05d-6eba-30a2",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Rebel Artillery to 1778",
+            "id": "fd00-bfc8-ac84-80c5",
+            "hidden": false,
+            "typeId": "b3ef-efab-f259-e80c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Formation", "$text": "No", "typeId": "b379-f56c-8497-5a83"},
+              {"name": "First Fire", "$text": "Yes", "typeId": "27fe-009e-561f-bffb"},
+              {"name": "Controlled Volley", "$text": "No", "typeId": "7880-4c90-1869-6edb"},
+              {"name": "Crashing Volley", "$text": "-", "typeId": "ed41-c95d-22bb-a5cb"},
+              {"name": "Step Out", "$text": "2", "typeId": "5292-1356-4cea-f775"},
+              {"name": "Drill", "$text": "-", "typeId": "2f16-fd62-50d0-883d"},
+              {"name": "Characteristics", "typeId": "161c-3c71-89d1-8434"},
+              {"name": "Size", "$text": "5", "typeId": "dd38-a731-1e95-b17e"},
+              {"name": "Withdrawal Distance", "$text": "-", "typeId": "426f-3e66-d211-7603"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rebel Artillery 1779 onwards",
+        "id": "d1a4-c4e7-08be-7f46",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 97,
+        "publicationId": "717d-5e01-ec61-ca94",
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "2e70-8ca7-72e4-6906", "hidden": false, "primary": true, "targetId": "dafe-ff28-362c-9bd5"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "Artillery",
+            "id": "210c-526c-cc0a-4aef",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "1431-d05d-6eba-30a2",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Rebel Artillery 1779 onwards",
+            "id": "517a-dc5e-fee6-431c",
+            "hidden": false,
+            "typeId": "b3ef-efab-f259-e80c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Formation", "$text": "No", "typeId": "b379-f56c-8497-5a83"},
+              {"name": "First Fire", "$text": "Yes", "typeId": "27fe-009e-561f-bffb"},
+              {"name": "Controlled Volley", "$text": "Yes", "typeId": "7880-4c90-1869-6edb"},
+              {"name": "Crashing Volley", "$text": "-", "typeId": "ed41-c95d-22bb-a5cb"},
+              {"name": "Step Out", "$text": "2", "typeId": "5292-1356-4cea-f775"},
+              {"name": "Drill", "$text": "-", "typeId": "2f16-fd62-50d0-883d"},
+              {"name": "Characteristics", "typeId": "161c-3c71-89d1-8434"},
+              {"name": "Size", "$text": "5", "typeId": "dd38-a731-1e95-b17e"},
+              {"name": "Withdrawal Distance", "$text": "-", "typeId": "426f-3e66-d211-7603"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Leader",
+        "id": "f2f8-5ab6-e834-fc65",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "51c1-7cad-33b2-b6cf", "hidden": false, "primary": true, "targetId": "612b-bffa-1303-f141"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "Leader",
+            "id": "02dc-ebd8-ec4f-9312",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "c30a-e677-a3c5-4987",
+            "type": "selectionEntryGroup"
+          }
+        ]
+      },
+      {
+        "name": "Support Options",
+        "id": "f1e4-534d-24cf-bed6",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "5f64-7ef5-8284-bfa1", "hidden": false, "primary": true, "targetId": "a645-8a61-0128-7539"}],
+        "costs": [{"name": "Points", "typeId": "6e4e-2180-a5bc-e3b3", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "Support Options",
+            "id": "d472-e5e5-54cd-ce34",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f9fa-f4cd-e965-48ea",
+            "type": "selectionEntryGroup"
+          }
+        ]
+      }
+    ]
+  }
+}
